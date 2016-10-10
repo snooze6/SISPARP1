@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(compiladores)
 
-add_executable(MPI main.cpp)
+add_executable(MPI src/main.cpp)
 
 # Require MPI for this project:
 find_package(MPI REQUIRED)
