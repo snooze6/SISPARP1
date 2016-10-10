@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a85a4307-2581-4136-8b16-f0e64f512d57" name="curso056@ft2.cesga.es" url="http://curso056@ft2.cesga.es">
+        <fileTransfer host="curso056@ft2.cesga.es" port="22" accessType="SFTP" password="dfcbdfc6dfccdfcbdfc8dfcfdfdedfcbdfcedfcfdfc6dfdedfcbdfcddfcbdfc7dfc7dfcbdfcfdfdadfd9dfc3dfc6dfc5dfc4" username="curso056">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
