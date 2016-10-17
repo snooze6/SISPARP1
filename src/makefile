@@ -1,9 +1,10 @@
 run:
-	sbatch ./launcher.sh -p cola-corta
+	#srun -p thinnodes -N 2 -t 00:00:10 pingpong -n 4 -iter 8
+	sbatch -p thinnodes ./launcher.sh
 
 clean:
-	rm -rf a.out
-	rm -rf slurm*
+	rm -rf a.out main pingpong slurm*
 
 all:
 	mpicc main.cpp -o main
+	mpicc pingpong.c -o pingpong

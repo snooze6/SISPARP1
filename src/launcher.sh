@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
-#SBATCH -N 4
+#!/bin/sh
+
+#SBATCH -N 2
 #SBATCH -t 00:00:10
-srun a.out
+srun pingpong -n 4 -iter 8

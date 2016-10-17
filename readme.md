@@ -34,7 +34,17 @@ Criterios de evaluación: número de benchmarks evaluados, aplicación técnica 
 en el documento de referencia de Intel, calidad en la presentación de la guía, en el sentido de que debe ser
 realmente útil para los programadores de MPI. 
 
+Pag 64
+Pag 67 -> Número de ejecuciones
 
 ```bash
 module load intel impi
+cd P1/src
+make clean && make all && srun -p thinnodes -N 2 -t 00:00:10 pingpong -n 4 -iter 8
+
+squeue -u $USER
 ```
+
+srun -p thinnodes -N 2 -t 00:00:10 main
+
+srun -p thinnodes -N 2 -t 00:00:10 pingpong
