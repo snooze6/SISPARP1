@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * Function that parses the arguments given to the program
+ * @param argc
+ * @param argv
+ * @return
+ */
 int parseargs(int argc, char **argv){
     for (int i = 1; i < argc; i++) {
         printf("argv[%u] = %s\n", i, argv[i]);
@@ -26,25 +32,13 @@ int parseargs(int argc, char **argv){
     return 0;
 }
 
-int messagepass(){
-    int world_rank; MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
-    int world_size; MPI_Comm_size(MPI_COMM_WORLD, &world_size);
-
-    int number;
-    if (world_rank == 0) {
-        number = -1;
-        MPI_Send(&number, 1, MPI_INT, 1, 0, MPI_COMM_WORLD);
-    } else if (world_rank == 1) {
-        MPI_Recv(&number, 1, MPI_INT, 0, 0, MPI_COMM_WORLD,
-                 MPI_STATUS_IGNORE);
-        printf("Process 1 received number %d from process 0\n",
-               number);
-    }
-}
-
-int pingpong(){
-    const int PING_PONG_LIMIT = 10;
-
+/**
+ * Function that executes pingpong benchmark
+ * @param max
+ * @param iter
+ * @return
+ */
+int pingpong(int max, int iter){
     // Find out rank, size
     int world_rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
@@ -60,7 +54,8 @@ int pingpong(){
 
     int ping_pong_count = 0;
     int partner_rank = (world_rank + 1) % 2;
-    while (ping_pong_count < PING_PONG_LIMIT) {
+
+    while (ping_pong_count < max) {
         if (world_rank == ping_pong_count % 2) {
             // Increment the ping pong count before you send it
             ping_pong_count++;
@@ -76,6 +71,10 @@ int pingpong(){
     }
 }
 
+/**
+ * Sample hello world
+ * @return
+ */
 int doit(){
     double start, finish;
 
@@ -113,7 +112,7 @@ int main(int argc, char **argv) {
     // Initialize the MPI environment
     MPI_Init(NULL, NULL);
 
-    pingpong();
+    pingpong(8,8);
 
     // Finalize the MPI environment.
     MPI_Finalize();
