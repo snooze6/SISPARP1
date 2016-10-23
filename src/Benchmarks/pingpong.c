@@ -1,6 +1,4 @@
-#include <mpi.h>
-#include <stdio.h>
-#include <string.h>
+#include "pingpong.h"
 
 /**
  * Function that executes pingpong benchmark
@@ -40,7 +38,7 @@ int pingpong(int max, int iter){
     }
 }
 
-int main(int argc, char **argv) {
+int main_pingpong(int argc, char **argv) {
     if( argc == 5 ) {
         int n, iter;
         if (strcmp(argv[1], "-n")){
