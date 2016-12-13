@@ -1,0 +1,5 @@
+#!/bin/sh
+#SBATCH -N 16 # solicitamos 2 nodos
+#SBATCH -t 00:00:10 # solicitamos 10 segundos de ejecución (mandatory)
+srun hello_mpi
+

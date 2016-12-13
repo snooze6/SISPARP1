@@ -1,0 +1,41 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=11dbab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1961ab0
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       26580    c7249      +1
+[0] MPI startup(): 1       28898    c7250      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Starting benchmark process
+Tamaño del mensaje=1, Repeticiones=1000, Tiempo=   14.399290, Rendimiento=    0.066232
+Tamaño del mensaje=2, Repeticiones=1000, Tiempo=   14.380217, Rendimiento=    0.132639
+Tamaño del mensaje=4, Repeticiones=1000, Tiempo=   14.374256, Rendimiento=    0.265388
+Tamaño del mensaje=8, Repeticiones=1000, Tiempo=   14.384985, Rendimiento=    0.530380
+Tamaño del mensaje=16, Repeticiones=1000, Tiempo=   14.359951, Rendimiento=    1.062610
+Tamaño del mensaje=32, Repeticiones=1000, Tiempo=   24.255514, Rendimiento=    1.258190
+Tamaño del mensaje=64, Repeticiones=1000, Tiempo=   24.330616, Rendimiento=    2.508613
+Tamaño del mensaje=128, Repeticiones=1000, Tiempo=   24.900436, Rendimiento=    4.902411
+Tamaño del mensaje=256, Repeticiones=1000, Tiempo=   26.280880, Rendimiento=    9.289809
+Tamaño del mensaje=512, Repeticiones=1000, Tiempo=   27.210712, Rendimiento=   17.944723
+Tamaño del mensaje=1024, Repeticiones=1000, Tiempo=   31.095743, Rendimiento=   31.405501
+Tamaño del mensaje=2048, Repeticiones=1000, Tiempo=   36.115646, Rendimiento=   54.080572
+Tamaño del mensaje=4096, Repeticiones=1000, Tiempo=   42.330027, Rendimiento=   92.282238
+Tamaño del mensaje=8192, Repeticiones=512, Tiempo=   56.358986, Rendimiento=  138.622424
+Tamaño del mensaje=16384, Repeticiones=256, Tiempo=   69.434755, Rendimiento=  225.034833
+Tamaño del mensaje=32768, Repeticiones=128, Tiempo=  100.666657, Rendimiento=  310.435230
+Tamaño del mensaje=65536, Repeticiones=64, Tiempo=  158.585608, Rendimiento=  394.114917
+Tamaño del mensaje=131072, Repeticiones=32, Tiempo=  278.912485, Rendimiento=  448.176092
+Tamaño del mensaje=262144, Repeticiones=16, Tiempo=  576.823950, Rendimiento=  433.414415
+Tamaño del mensaje=524288, Repeticiones=10, Tiempo= 1102.924347, Rendimiento=  453.347168
+Tamaño del mensaje=1048576, Repeticiones=10, Tiempo= 2124.071121, Rendimiento=  470.801212
+Tamaño del mensaje=2097152, Repeticiones=10, Tiempo= 4146.933556, Rendimiento=  482.291431
+Tamaño del mensaje=4194304, Repeticiones=10, Tiempo= 8255.958557, Rendimiento=  484.505949

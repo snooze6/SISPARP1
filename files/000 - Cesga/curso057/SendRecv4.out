@@ -1,0 +1,56 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1ea7ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2116ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1dbfab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1c31ab0
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       21446    c7050      +1
+[0] MPI startup(): 1       4892     c7052      +1
+[0] MPI startup(): 2       28838    c7053      +1
+[0] MPI startup(): 3       8629     c7054      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Starting benchmark process
+
+Tamaño del mensaje=1, Repeticiones=1000, Tiempo=    7.619858, Rendimiento=    0.125158
+Tamaño del mensaje=2, Repeticiones=1000, Tiempo=    7.674694, Rendimiento=    0.248528
+Tamaño del mensaje=4, Repeticiones=1000, Tiempo=    7.655621, Rendimiento=    0.498295
+Tamaño del mensaje=8, Repeticiones=1000, Tiempo=    7.669926, Rendimiento=    0.994731
+Tamaño del mensaje=16, Repeticiones=1000, Tiempo=    7.690191, Rendimiento=    1.984219
+Tamaño del mensaje=32, Repeticiones=1000, Tiempo=   12.979507, Rendimiento=    2.351248
+Tamaño del mensaje=64, Repeticiones=1000, Tiempo=   12.924671, Rendimiento=    4.722448
+Tamaño del mensaje=128, Repeticiones=1000, Tiempo=   13.184547, Rendimiento=    9.258731
+Tamaño del mensaje=256, Repeticiones=1000, Tiempo=   14.214516, Rendimiento=   17.175707
+Tamaño del mensaje=512, Repeticiones=1000, Tiempo=   15.029907, Rendimiento=   32.487805
+Tamaño del mensaje=1024, Repeticiones=1000, Tiempo=   17.049313, Rendimiento=   57.279576
+Tamaño del mensaje=2048, Repeticiones=1000, Tiempo=   20.045042, Rendimiento=   97.438299
+Tamaño del mensaje=4096, Repeticiones=1000, Tiempo=   24.005175, Rendimiento=  162.727815
+Tamaño del mensaje=8192, Repeticiones=512, Tiempo=   60.801394, Rendimiento=  128.494080
+Tamaño del mensaje=16384, Repeticiones=256, Tiempo=  150.641426, Rendimiento=  103.724711
+Tamaño del mensaje=32768, Repeticiones=128, Tiempo=  415.472314, Rendimiento=   75.216749
+Tamaño del mensaje=65536, Repeticiones=64, Tiempo= 1434.609294, Rendimiento=   43.566533
+Tamaño del mensaje=131072, Repeticiones=32, Tiempo= 5629.360676, Rendimiento=   22.205347
+Tamaño del mensaje=262144, Repeticiones=16, Tiempo=18099.695444, Rendimiento=   13.812598
+Tamaño del mensaje=524288, Repeticiones=10, Tiempo=62490.463257, Rendimiento=    8.001343
+Tamaño del mensaje=1048576, Repeticiones=10, Tiempo=119111.895561, Rendimiento=    8.395595
+Tamaño del mensaje=2097152, Repeticiones=10, Tiempo=240926.027298, Rendimiento=    8.301430
+Tamaño del mensaje=4194304, Repeticiones=10, Tiempo=484277.963638, Rendimiento=    8.259845

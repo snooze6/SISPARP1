@@ -1,0 +1,47 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=12d0ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c01ab0
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       14035    c7045      +1
+[0] MPI startup(): 1       24809    c7046      +1
+I'm 1, right: 0, left: 0 
+[0] MPI startup(): I_MPI_DEBUG=5
+I'm 0, right: 1, left: 1 
+#---------------------------------------------------
+# Benchmarking SENDRECV
+# #processes = 2
+#---------------------------------------------------
+    #bytes #repetitions      t[usec]   Mbytes/sec
+         1        10000    18.222094     0.104672
+         2        10000    17.233133     0.221358
+         4        10000    16.806841     0.453946
+         8        10000    16.433001     0.928546
+        16        10000    16.075850     1.898349
+        32        10000    26.004076     2.347138
+        64        10000    25.518894     4.783527
+       128        10000    25.671005     9.510365
+       256        10000    26.808977    18.213349
+       512         8192    27.740316    35.203727
+      1024         4096    30.801166    63.410749
+      2048         2048    37.075952   105.358051
+      4096         1024    43.876935   178.054826
+      8192          512    58.128498   268.801025
+     16384          256    76.722354   407.312843
+     32768          128   117.179006   533.371992
+     65536           64   184.997916   675.683286
+    131072           32   382.810831   653.064072
+    262144           16   669.360161   746.982012
+    524288           10  1308.202744   764.407509
+   1048576           10  2573.966980   777.010745
+   2097152           10  5102.157593   783.982056
+   4194304           10 10156.869888   787.644234

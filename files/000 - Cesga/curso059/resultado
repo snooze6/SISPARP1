@@ -1,0 +1,131 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1216ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=14efab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b9bab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=162eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=24c9ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=212bab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=20a0ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e48ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=18b2ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=15caab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=84cab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=239eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1bc7ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=15e5ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=174aab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=18b3ab0
+[13] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[13] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[13] MPI startup(): dapl data transfer mode
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[9] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[12] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[11] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[9] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[9] MPI startup(): dapl data transfer mode
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[12] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[12] MPI startup(): dapl data transfer mode
+[11] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[11] MPI startup(): dapl data transfer mode
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[4] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[4] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[4] MPI startup(): dapl data transfer mode
+[14] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[14] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[14] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[7] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[10] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[5] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[15] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[8] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[7] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[7] MPI startup(): dapl data transfer mode
+[6] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[10] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[10] MPI startup(): dapl data transfer mode
+[5] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[5] MPI startup(): dapl data transfer mode
+[15] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[15] MPI startup(): dapl data transfer mode
+[8] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[8] MPI startup(): dapl data transfer mode
+[6] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[6] MPI startup(): dapl data transfer mode
+[7] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[7] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[5] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[5] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[9] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[9] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[10] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[10] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[6] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[6] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[8] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[8] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[11] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[11] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[12] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[12] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[13] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[13] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[14] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[14] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[15] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[15] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       2878     c7001      +1
+[0] MPI startup(): 1       19521    c7010      +1
+[0] MPI startup(): 2       24956    c7011      +1
+[0] MPI startup(): 3       29863    c7013      +1
+[0] MPI startup(): 4       4140     c7014      +1
+[0] MPI startup(): 5       3973     c7015      +1
+[0] MPI startup(): 6       19732    c7016      +1
+[0] MPI startup(): 7       25367    c7047      +1
+[0] MPI startup(): 8       18775    c7108      +1
+[0] MPI startup(): 9       4203     c7109      +1
+Hello world from processor c7016, rank 6 out of 16 processors
+Hello world from processor c7015, rank 5 out of 16 processors
+Hello world from processor c7116, rank 11 out of 16 processors
+Hello world from processor c7109, rank 9 out of 16 processors
+Hello world from processor c7047, rank 7 out of 16 processors
+Hello world from processor c7251, rank 14 out of 16 processors
+Hello world from processor c7011, rank 2 out of 16 processors
+Hello world from processor c7013, rank 3 out of 16 processors
+Hello world from processor c7014, rank 4 out of 16 processors
+Hello world from processor c7108, rank 8 out of 16 processors
+Hello world from processor c7112, rank 10 out of 16 processors
+Hello world from processor c7010, rank 1 out of 16 processors
+Hello world from processor c7249, rank 12 out of 16 processors
+Hello world from processor c7252, rank 15 out of 16 processors
+Hello world from processor c7250, rank 13 out of 16 processors
+[0] MPI startup(): 10      25348    c7112      +1
+[0] MPI startup(): 11      27917    c7116      +1
+[0] MPI startup(): 12      21657    c7249      +1
+[0] MPI startup(): 13      14813    c7250      +1
+[0] MPI startup(): 14      26012    c7251      +1
+[0] MPI startup(): 15      1600     c7252      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Hello world from processor c7001, rank 0 out of 16 processors

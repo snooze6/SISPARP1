@@ -1,0 +1,71 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=15b4ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e07ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2038ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=bd6ab0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       27188    c7033      +1
+[0] MPI startup(): 1       27189    c7033      +1
+[0] MPI startup(): 2       27190    c7033      +1
+[0] MPI startup(): 3       27191    c7033      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#------------------------------------------------------------
+#    Intel (R) MPI Benchmarks 4.1 Update 1, MPI-1 part    
+#------------------------------------------------------------
+# Date                  : Mon Nov 14 11:23:44 2016
+# Machine               : x86_64
+# System                : Linux
+# Release               : 2.6.32-573.12.1.el6.x86_64
+# Version               : #1 SMP Mon Nov 23 12:55:32 EST 2015
+# MPI Version           : 3.0
+# MPI Thread Environment: 
+
+# New default behavior from Version 3.2 on:
+
+# the number of iterations per message size is cut down 
+# dynamically when a certain run time (per message size sample) 
+# is expected to be exceeded. Time limit is defined by variable 
+# "SECS_PER_SAMPLE" (=> IMB_settings.h) 
+# or through the flag => -time 
+  
+
+
+# Calling sequence was: 
+
+# /opt/cesga/intel/impi/5.1.3.223/bin64/IMB-MPI1 Barrier
+
+# Minimum message length in bytes:   0
+# Maximum message length in bytes:   4194304
+#
+# MPI_Datatype                   :   MPI_BYTE 
+# MPI_Datatype for reductions    :   MPI_FLOAT
+# MPI_Op                         :   MPI_SUM  
+#
+#
+
+# List of Benchmarks to run:
+
+# Barrier
+
+#---------------------------------------------------
+# Benchmarking Barrier 
+# #processes = 2 
+# ( 2 additional processes waiting in MPI_Barrier)
+#---------------------------------------------------
+ #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+         1000         0.51         0.51         0.51
+
+#---------------------------------------------------
+# Benchmarking Barrier 
+# #processes = 4 
+#---------------------------------------------------
+ #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+         1000         0.95         0.95         0.95
+
+
+# All processes entering MPI_Finalize
+

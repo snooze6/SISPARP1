@@ -1,0 +1,53 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e59ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2397ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=f7ead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=ad2ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=d96ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b8bad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c02ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=82bad0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       25194    c7130      +1
+[0] MPI startup(): 1       25195    c7130      +1
+[0] MPI startup(): 2       25196    c7130      +1
+[0] MPI startup(): 3       25197    c7130      +1
+[0] MPI startup(): 4       25198    c7130      +1
+[0] MPI startup(): 5       25199    c7130      +1
+[0] MPI startup(): 6       25200    c7130      +1
+[0] MPI startup(): 7       25201    c7130      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+BCast
+#bytes		#repeticiones	tiempo[μseg]	Mbytes/sec
+0		1000		227.928162
+1		1000		9367.942810
+2		1000		8228.063583
+4		1000		7982.015610
+8		1000		7853.984833
+16		1000		7738.113403
+32		1000		7550.954819
+64		1000		8103.132248
+128		1000		8213.043213
+256		1000		8381.128311
+512		1000		12605.905533
+1024		1000		10980.844498
+2048		1000		13818.979263
+4096		1000		19879.817963
+8192		1000		32011.985779
+16384		1000		55569.887161
+32768		1000		77826.976776
+65536		640		84863.901138
+131072		320		79269.886017
+262144		160		82031.965256
+524288		80		80385.923386
+1048576		40		79895.973206
+2097152		20		87886.095047
+4194304		10		118833.065033

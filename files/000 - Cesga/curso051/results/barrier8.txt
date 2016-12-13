@@ -1,0 +1,52 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=6d8ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1a49ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=e5eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=a1eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=fe5ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e0fab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1457ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1be2ab0
+[0] MPI startup(): Multi-threaded optimized library
+[5] MPI startup(): shm data transfer mode
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       3389     c7001      +1
+[0] MPI startup(): 1       3390     c7001      +1
+[0] MPI startup(): 2       3391     c7001      +1
+[0] MPI startup(): 3       3392     c7001      +1
+[0] MPI startup(): 4       3394     c7001      +1
+[0] MPI startup(): 5       3395     c7001      +1
+[0] MPI startup(): 6       3396     c7001      +1
+[0] MPI startup(): 7       3397     c7001      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#bytes	#repetitions	t[μsec]
+0	1000	2.850056	
+1	1000	2.786160	
+2	1000	2.743721	
+4	1000	2.796173	
+8	1000	2.770424	
+16	1000	2.739906	
+32	1000	2.773762	
+64	1000	2.741814	
+128	1000	2.634048	
+256	1000	2.676010	
+512	1000	2.654076	
+1024	1000	2.645969	
+2048	1000	2.718449	
+4096	1000	2.645969	
+8192	1000	2.649784	
+16384	1000	2.654076	
+32768	1000	2.570152	
+65536	640	2.603233	
+131072	320	2.531707	
+262144	160	2.539158	
+524288	80	2.777576	
+1048576	40	2.801418	
+2097152	20	2.884865	
+4194304	10	2.622604	

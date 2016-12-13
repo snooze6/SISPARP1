@@ -1,0 +1,117 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=148fab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c18ab0
+[0] MPI startup(): Multi-threaded optimized library
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       25618    c6905      +1
+[0] MPI startup(): 1       16287    c6906      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#------------------------------------------------------------
+#    Intel (R) MPI Benchmarks 4.1 Update 1, MPI-1 part    
+#------------------------------------------------------------
+# Date                  : Mon Oct 17 09:57:27 2016
+# Machine               : x86_64
+# System                : Linux
+# Release               : 2.6.32-573.12.1.el6.x86_64
+# Version               : #1 SMP Mon Nov 23 12:55:32 EST 2015
+# MPI Version           : 3.0
+# MPI Thread Environment: 
+
+# New default behavior from Version 3.2 on:
+
+# the number of iterations per message size is cut down 
+# dynamically when a certain run time (per message size sample) 
+# is expected to be exceeded. Time limit is defined by variable 
+# "SECS_PER_SAMPLE" (=> IMB_settings.h) 
+# or through the flag => -time 
+  
+
+
+# Calling sequence was: 
+
+# /opt/cesga/intel/impi/5.1.3.223/bin64/IMB-MPI1 PingPong Allreduce
+
+# Minimum message length in bytes:   0
+# Maximum message length in bytes:   4194304
+#
+# MPI_Datatype                   :   MPI_BYTE 
+# MPI_Datatype for reductions    :   MPI_FLOAT
+# MPI_Op                         :   MPI_SUM  
+#
+#
+
+# List of Benchmarks to run:
+
+# PingPong
+# Allreduce
+
+#---------------------------------------------------
+# Benchmarking PingPong 
+# #processes = 2 
+#---------------------------------------------------
+       #bytes #repetitions      t[usec]   Mbytes/sec
+            0         1000         1.55         0.00
+            1         1000         1.57         0.61
+            2         1000         1.56         1.23
+            4         1000         1.55         2.46
+            8         1000         1.54         4.96
+           16         1000         1.52        10.01
+           32         1000         2.51        12.18
+           64         1000         2.49        24.51
+          128         1000         2.52        48.42
+          256         1000         2.70        90.54
+          512         1000         2.80       174.13
+         1024         1000         3.10       314.76
+         2048         1000         3.70       527.24
+         4096         1000         4.33       902.85
+         8192         1000         5.79      1349.53
+        16384         1000         7.31      2136.60
+        32768         1000        10.12      3088.41
+        65536          640        15.95      3919.27
+       131072          320        26.70      4680.82
+       262144          160        49.95      5005.36
+       524288           80        96.21      5197.16
+      1048576           40       192.24      5201.91
+      2097152           20       376.11      5317.66
+      4194304           10       752.95      5312.44
+
+#----------------------------------------------------------------
+# Benchmarking Allreduce 
+# #processes = 2 
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.07
+            4         1000         1.59         1.60         1.60
+            8         1000         1.60         1.61         1.60
+           16         1000         1.62         1.63         1.62
+           32         1000         2.54         2.55         2.54
+           64         1000         2.57         2.58         2.57
+          128         1000         2.64         2.64         2.64
+          256         1000         2.83         2.83         2.83
+          512         1000         2.98         2.98         2.98
+         1024         1000         3.32         3.32         3.32
+         2048         1000         4.05         4.07         4.06
+         4096         1000         4.96         4.96         4.96
+         8192         1000         6.57         6.57         6.57
+        16384         1000         9.09         9.10         9.10
+        32768         1000        18.02        18.02        18.02
+        65536          640        26.80        26.81        26.80
+       131072          320        45.04        45.06        45.05
+       262144          160        94.38        94.45        94.41
+       524288           80       312.89       312.97       312.93
+      1048576           40       546.83       547.09       546.96
+      2097152           20      1026.65      1027.50      1027.08
+      4194304           10      1897.72      1899.89      1898.80
+
+
+# All processes entering MPI_Finalize
+

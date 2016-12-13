@@ -3,4 +3,6 @@
 
 #include "common.h"
 
+void main_barrier(int argc, char** argv);
+
 #endif

@@ -1,0 +1,59 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=91aab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1f66ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=689ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=f9bab0
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       26834    c7345      +1
+[0] MPI startup(): 1       18199    c7346      +1
+[0] MPI startup(): 2       30227    c7347      +1
+[0] MPI startup(): 3       14881    c7348      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#---------------------------------------------------
+# Benchmarking BROADCAST
+# #processes = 4
+#---------------------------------------------------
+    #bytes #repetitions      t[usec]   Mbytes/sec
+         1         1000 8.678436e-07     4.395604
+         2         1000 9.160042e-07     8.328995
+         4         1000 8.900166e-07    17.144388
+         8         1000 8.900166e-07    34.288776
+        16         1000 8.871555e-07    68.798710
+        32         1000 1.019001e-06   119.794104
+        64         1000 9.670258e-07   252.465483
+       128         1000 1.050949e-06   464.609800
+       256         1000 1.168013e-06   836.088998
+       512         1000 1.194000e-06  1635.782748
+      1024         1000 1.319885e-06  2959.537572
+      2048         1000 1.587152e-06  4922.337389
+      4096         1000 2.046108e-06  7636.448380
+      8192         1000 2.959013e-06 10560.953992
+     16384         1000 5.936861e-06 10527.448697
+     32768         1000 1.181006e-05 10584.192995
+     65536          640 2.334714e-05 10707.949962
+    131072          320 4.749671e-05 10527.045758
+    262144          160 1.086444e-04  9204.342888
+    524288           80 2.073377e-04  9646.097368
+   1048576           40 4.172504e-04  9586.569718
+   2097152           20 8.567095e-04  9338.054713
+   4194304           10 1.813388e-03  8823.264045

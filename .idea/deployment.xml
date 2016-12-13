@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="curso056@ft2.cesga.es">
+  <component name="PublishConfigData" serverName="curso056@ft2.cesga.es">
     <serverData>
       <paths name="curso056@ft2.cesga.es">
         <serverdata>
@@ -10,6 +10,5 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

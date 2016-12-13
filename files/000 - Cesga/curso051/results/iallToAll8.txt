@@ -1,0 +1,160 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=780ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2464ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=21feab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=20b9ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=fecab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1323ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1d25ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=eb9ab0
+[0] MPI startup(): Multi-threaded optimized library
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[0] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       11008    c7145      +1
+[0] MPI startup(): 1       11009    c7145      +1
+[0] MPI startup(): 2       11010    c7145      +1
+[0] MPI startup(): 3       11011    c7145      +1
+[0] MPI startup(): 4       11012    c7145      +1
+[0] MPI startup(): 5       11013    c7145      +1
+[0] MPI startup(): 6       11014    c7145      +1
+[0] MPI startup(): 7       11015    c7145      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#------------------------------------------------------------
+#    Intel (R) MPI Benchmarks 4.1 Update 1, MPI-1 part    
+#------------------------------------------------------------
+# Date                  : Mon Nov 14 11:23:24 2016
+# Machine               : x86_64
+# System                : Linux
+# Release               : 2.6.32-573.12.1.el6.x86_64
+# Version               : #1 SMP Mon Nov 23 12:55:32 EST 2015
+# MPI Version           : 3.0
+# MPI Thread Environment: 
+
+# New default behavior from Version 3.2 on:
+
+# the number of iterations per message size is cut down 
+# dynamically when a certain run time (per message size sample) 
+# is expected to be exceeded. Time limit is defined by variable 
+# "SECS_PER_SAMPLE" (=> IMB_settings.h) 
+# or through the flag => -time 
+  
+
+
+# Calling sequence was: 
+
+# /opt/cesga/intel/impi/5.1.3.223/bin64/IMB-MPI1 Alltoall
+
+# Minimum message length in bytes:   0
+# Maximum message length in bytes:   4194304
+#
+# MPI_Datatype                   :   MPI_BYTE 
+# MPI_Datatype for reductions    :   MPI_FLOAT
+# MPI_Op                         :   MPI_SUM  
+#
+#
+
+# List of Benchmarks to run:
+
+# Alltoall
+
+#----------------------------------------------------------------
+# Benchmarking Alltoall 
+# #processes = 2 
+# ( 6 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.07         0.08         0.07
+            1         1000         0.92         0.93         0.92
+            2         1000         0.79         0.80         0.79
+            4         1000         0.80         0.80         0.80
+            8         1000         0.80         0.80         0.80
+           16         1000         0.79         0.79         0.79
+           32         1000         0.81         0.81         0.81
+           64         1000         0.83         0.84         0.83
+          128         1000         0.89         0.90         0.90
+          256         1000         0.95         0.97         0.96
+          512         1000         1.05         1.06         1.05
+         1024         1000         1.20         1.21         1.21
+         2048         1000         1.44         1.44         1.44
+         4096         1000         2.18         2.19         2.18
+         8192         1000         3.42         3.43         3.43
+        16384         1000         5.77         5.77         5.77
+        32768         1000         9.81         9.82         9.82
+        65536          640        12.54        12.55        12.55
+       131072          320        25.06        25.07        25.06
+       262144          160        51.02        51.04        51.03
+       524288           80        96.20        96.23        96.22
+      1048576           40       182.57       182.60       182.59
+      2097152           20       373.70       373.84       373.77
+      4194304           10      1220.20      1220.30      1220.25
+
+#----------------------------------------------------------------
+# Benchmarking Alltoall 
+# #processes = 4 
+# ( 4 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.07         0.08         0.07
+            1         1000         1.56         1.59         1.58
+            2         1000         1.57         1.58         1.57
+            4         1000         1.56         1.57         1.57
+            8         1000         1.55         1.55         1.55
+           16         1000         1.56         1.56         1.56
+           32         1000         1.58         1.59         1.59
+           64         1000         1.63         1.64         1.64
+          128         1000         1.72         1.73         1.73
+          256         1000         1.81         1.82         1.82
+          512         1000         2.09         2.10         2.10
+         1024         1000         2.35         2.36         2.35
+         2048         1000         2.96         2.99         2.97
+         4096         1000         4.10         4.11         4.10
+         8192         1000         6.14         6.15         6.15
+        16384         1000        11.91        11.94        11.93
+        32768         1000        23.60        23.61        23.61
+        65536          640        30.79        30.82        30.81
+       131072          320        55.77        55.80        55.79
+       262144          160       110.26       110.40       110.33
+       524288           80       221.77       222.13       221.95
+      1048576           40       687.42       695.71       692.66
+      2097152           20      1958.91      2004.93      1987.58
+      4194304           10      3932.12      4018.59      3996.78
+
+#----------------------------------------------------------------
+# Benchmarking Alltoall 
+# #processes = 8 
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.07         0.08         0.07
+            1         1000         3.15         3.18         3.16
+            2         1000         3.17         3.19         3.18
+            4         1000         3.14         3.16         3.15
+            8         1000         3.14         3.16         3.15
+           16         1000         3.44         3.46         3.45
+           32         1000         3.36         3.38         3.37
+           64         1000         3.32         3.33         3.32
+          128         1000         3.48         3.50         3.49
+          256         1000         3.81         3.83         3.82
+          512         1000         4.31         4.33         4.32
+         1024         1000         5.38         5.40         5.39
+         2048         1000         5.93         5.95         5.94
+         4096         1000         8.38         8.40         8.39
+         8192         1000        13.50        13.53        13.52
+        16384         1000        29.05        29.09        29.07
+        32768         1000        56.21        56.25        56.22
+        65536          640        64.34        64.39        64.37
+       131072          320       117.31       117.40       117.37
+       262144          160       377.35       377.71       377.55
+       524288           80      1420.74      1422.61      1421.55
+      1048576           40      2898.05      2917.59      2908.78
+      2097152           20      5888.10      5915.38      5899.30
+      4194304           10     11857.60     11982.01     11907.46
+
+
+# All processes entering MPI_Finalize
+

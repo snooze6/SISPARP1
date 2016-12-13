@@ -1,0 +1,52 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=f13af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c90af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=fb4af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=df1af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=6dcaf0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=e0baf0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=196baf0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1890af0
+[0] MPI startup(): Multi-threaded optimized library
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       3783     c7001      +1
+[0] MPI startup(): 1       3784     c7001      +1
+[0] MPI startup(): 2       3785     c7001      +1
+[0] MPI startup(): 3       3786     c7001      +1
+[0] MPI startup(): 4       3787     c7001      +1
+[0] MPI startup(): 5       3788     c7001      +1
+[0] MPI startup(): 6       3789     c7001      +1
+[0] MPI startup(): 7       3790     c7001      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#bytes	#repetitions	t[μsec]
+0	1000	0.027895	
+1	1000	1.929998	
+2	1000	1.042128	
+4	1000	1.020908	
+8	1000	1.036882	
+16	1000	1.029015	
+32	1000	1.015902	
+64	1000	1.107931	
+128	1000	1.137972	
+256	1000	1.168013	
+512	1000	4.477978	
+1024	1000	1.635075	
+2048	1000	1.981020	
+4096	1000	2.794981	
+8192	1000	6.256104	
+16384	1000	9.553909	
+32768	1000	10.993958	
+65536	640	18.262491	
+131072	320	33.656508	
+262144	160	69.306791	
+524288	80	134.062767	
+1048576	40	268.673897	
+2097152	20	693.154335	
+4194304	10	1933.693886	

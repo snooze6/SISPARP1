@@ -1,77 +1,68 @@
 #include "pingpong.h"
 
 /**
- * Function that executes pingpong benchmark
- * @param max
- * @param iter
- * @return
+ * Function that executes pingpong benchmark.
+ *  - This benchmark uses only two processes
+ *  - The length of the message is changed with several values.
+ *  - The timming is averaged between two processes
  */
-int pingpong(int max, int iter){
-    int i;
-    for (i=0; i<iter; i++) {
-        // Find out rank, size
-        int world_rank;
-        MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
-        int world_size;
-        MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 
-        // We are assuming at least 2 processes for this task
-        if (world_size != 2) {
-            fprintf(stderr, "World size must be two for this task\n");
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
+void main_pingpong(int argc, char **argv) {
+    int rank, size=-1, i, j=0, k, n_sample;
+    // Time start and end
+    double time_start = 0, time_end = 0;
 
-        int ping_pong_count = 0;
-        int partner_rank = (world_rank + 1) % 2;
+    // Find out rank, size
+    MPI_Comm_rank (MPI_COMM_WORLD, &rank);
+    MPI_Comm_size (MPI_COMM_WORLD, &size);
 
-        while (ping_pong_count < max) {
-            if (world_rank == ping_pong_count % 2) {
-                // Increment the ping pong count before you send it
-                ping_pong_count++;
-                MPI_Send(&ping_pong_count, 1, MPI_INT, partner_rank, 0, MPI_COMM_WORLD);
-                printf("    %d sent and incremented ping_pong_count %d to %d\n",world_rank, ping_pong_count, partner_rank);
-            } else {
-                MPI_Recv(&ping_pong_count, 1, MPI_INT, partner_rank, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                printf("    %d received ping_pong_count %d from %d\n",world_rank, ping_pong_count, partner_rank);
+    while(j<4194305){
+        // Calculate number of msgs sent in PingPong
+        if(j==0){
+            n_sample=1000;
+        }else{
+            if((4194304/j*10)>1000){
+                n_sample=1000;
+            }else{
+                n_sample=4194304/j*10;
             }
         }
+
+        char* msg = (char *) malloc(sizeof(char)*j);
+
+        for(k=0;k<2;k++){
+            // Start everything at the same time
+            MPI_Barrier(MPI_COMM_WORLD);
+            time_start=MPI_Wtime();
+
+            // Do ping pong
+            for(i=0;i<n_sample;i++){
+                if(!rank){
+                    MPI_Send(msg, j, MPI_BYTE, 1, 0, MPI_COMM_WORLD);
+                    MPI_Recv(msg, j, MPI_BYTE, 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                }else{
+                    MPI_Recv(msg, j, MPI_BYTE, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                    MPI_Send(msg, j, MPI_BYTE, 0, 0, MPI_COMM_WORLD);
+                }
+            }
+
+            time_end=(MPI_Wtime()-time_start)/n_sample/2;
+        }
+
+        free(msg);
+
+        // Only first process print results
+        if(!rank){
+            printf("Tiempo: %11f \t Bytes:%8d \t Mensajes:%8d \t BW:%13f\n",(time_end*1000000),j,n_sample,(j/time_end/1024/1024));
+        }
+
+        // Update J
+        // J = { 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304}
+        if(!j){ j=1; } else { j*=2;}
     }
 }
 
-int main_pingpong(int argc, char **argv) {
-    if( argc == 5 ) {
-        int n, iter;
-        if (strcmp(argv[1], "-n")){
-            n = atoi(argv[2]);
-            iter = atoi(argv[4]);
-        } else {
-            n = atoi(argv[4]);
-            iter = atoi(argv[2]);
-        }
-
-        // Initialize the MPI environment
-        MPI_Init(NULL, NULL);
-        int world_rank; MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
-
-        if(world_rank == 0){
-            printf("{\n");
-            printf("  n: %d\n",n);
-            printf("  iter: %d\n",iter);
-            printf("  data: {\n");
-        }
-
-            pingpong(n,iter);
-
-        if (world_rank ==0 ){
-            printf("  }\n");
-            printf("}\n");
-        }
-
-        // Finalize the MPI environment.
-        MPI_Finalize();
-    } else {
-        printf(" + Usage:\n");
-        printf("   ./pingpong -n <num> -iter <num>:\n");
-    }
-    return 0;
-}
+//#ifndef INCLUDE_MAIN
+//#define INCLUDE_MAIN
+//void mainasdf(int argc, char **argv) {main_pingpong(argc, argv);}
+//#endif

@@ -3,4 +3,6 @@
 
 #include "common.h"
 
+void main_alltoall(int argc, char **argv);
+
 #endif

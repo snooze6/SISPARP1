@@ -1,0 +1,84 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=186eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1670ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=23bdab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=a36ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=a2dab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=20e0ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2323ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=22b6ab0
+[7] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[4] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[7] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[7] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[4] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[4] MPI startup(): dapl data transfer mode
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[5] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[6] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[5] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[5] MPI startup(): dapl data transfer mode
+[6] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[6] MPI startup(): dapl data transfer mode
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[5] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[5] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[6] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[6] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[7] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[7] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       3607     c6637      +1
+[0] MPI startup(): 1       31390    c6638      +1
+[0] MPI startup(): 2       11765    c6639      +1
+[0] MPI startup(): 3       29554    c6640      +1
+[0] MPI startup(): 4       22364    c6642      +1
+[0] MPI startup(): 5       11627    c6643      +1
+[0] MPI startup(): 6       26585    c6644      +1
+[0] MPI startup(): 7       1347     c6645      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Starting benchmark process
+
+Tamaño del mensaje=1, Repeticiones=1000, Tiempo=   28.128624
+Tamaño del mensaje=2, Repeticiones=1000, Tiempo=   27.260780
+Tamaño del mensaje=4, Repeticiones=1000, Tiempo=   26.199818
+Tamaño del mensaje=8, Repeticiones=1000, Tiempo=   26.872158
+Tamaño del mensaje=16, Repeticiones=1000, Tiempo=   26.268959
+Tamaño del mensaje=32, Repeticiones=1000, Tiempo=   36.921501
+Tamaño del mensaje=64, Repeticiones=1000, Tiempo=   36.919117
+Tamaño del mensaje=128, Repeticiones=1000, Tiempo=   37.400723
+Tamaño del mensaje=256, Repeticiones=1000, Tiempo=   39.069653
+Tamaño del mensaje=512, Repeticiones=1000, Tiempo=   40.731430
+Tamaño del mensaje=1024, Repeticiones=1000, Tiempo=   43.818951
+Tamaño del mensaje=2048, Repeticiones=1000, Tiempo=   52.101612
+Tamaño del mensaje=4096, Repeticiones=1000, Tiempo=   67.310333
+Tamaño del mensaje=8192, Repeticiones=512, Tiempo=   92.424452
+Tamaño del mensaje=16384, Repeticiones=256, Tiempo=  146.329403
+Tamaño del mensaje=32768, Repeticiones=128, Tiempo=  201.649964
+Tamaño del mensaje=65536, Repeticiones=64, Tiempo=  340.156257
+Tamaño del mensaje=131072, Repeticiones=32, Tiempo=  631.883740
+Tamaño del mensaje=262144, Repeticiones=16, Tiempo= 1373.738050
+Tamaño del mensaje=524288, Repeticiones=10, Tiempo= 2366.065979
+Tamaño del mensaje=1048576, Repeticiones=10, Tiempo= 4565.000534
+Tamaño del mensaje=2097152, Repeticiones=10, Tiempo= 8569.002151
+Tamaño del mensaje=4194304, Repeticiones=10, Tiempo=16927.003860

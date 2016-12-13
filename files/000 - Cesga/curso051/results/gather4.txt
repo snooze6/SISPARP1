@@ -1,0 +1,40 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1cfead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=9dbad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1aeead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=18b4ad0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       6157     c7001      +1
+[0] MPI startup(): 1       6158     c7001      +1
+[0] MPI startup(): 2       6159     c7001      +1
+[0] MPI startup(): 3       6160     c7001      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#bytes	#repetitions	t[μsec]
+0	1000	35.047531	
+1	1000	495.910645	
+2	1000	466.823578	
+4	1000	474.929810	
+8	1000	458.955765	
+16	1000	500.917435	
+32	1000	480.890274	
+64	1000	536.918640	
+128	1000	530.958176	
+256	1000	586.986542	
+512	1000	713.825226	
+1024	1000	3395.080566	
+2048	1000	5407.094955	
+4096	1000	6757.974625	
+8192	1000	10904.073715	
+16384	1000	19049.167633	
+32768	1000	17589.092255	
+65536	640	19305.944443	
+131072	320	17349.004745	
+262144	160	16287.088394	
+524288	80	16099.214554	
+1048576	40	18970.966339	
+2097152	20	31914.949417	
+4194304	10	42429.924011	

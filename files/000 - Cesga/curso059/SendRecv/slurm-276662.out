@@ -1,0 +1,866 @@
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x00000000021e1610 ***
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x0000000001bc3610 ***
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x0000000000829610 ***
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x0000000000ce5610 ***
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x000000000075e610 ***
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x00000000009f8610 ***
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x0000000000a77610 ***
+*** glibc detected *** /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out: free(): invalid pointer: 0x0000000000b46610 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x75f4e)[0x7feddc48ff4e]
+/lib64/libc.so.6(+0x78cad)[0x7feddc492cad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+======= Backtrace: =========
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x7feddc438d5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+00400000-00404000 r-xp 00000000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+0081f000-00910000 rw-p 00000000 00:00 0                                  [heap]
+7fedbc000000-7fedbc021000 rw-p 00000000 00:00 0 
+7fedbc021000-7fedc0000000 ---p 00000000 00:00 0 
+7fedc4000000-7fedc4021000 rw-p 00000000 00:00 0 
+7fedc4021000-7fedc8000000 ---p 00000000 00:00 0 
+7fedca7a7000-7fedca7a8000 ---p 00000000 00:00 0 
+7fedca7a8000-7fedda7a8000 rw-p 00000000 00:00 0 
+7fedda7a8000-7fedda7ce000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fedda7ce000-7fedda9ce000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fedda9ce000-7fedda9cf000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fedda9cf000-7fedda9da000 r-xp 00000000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fedda9da000-7feddabd9000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7feddabd9000-7feddabda000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7feddabda000-7feddabe1000 r-xp 00000000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7feddabe1000-7feddade0000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7feddade0000-7feddade1000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7feddade1000-7feddade8000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7feddade8000-7feddafe8000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7feddafe8000-7feddafe9000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7feddafe9000-7feddb036000 r-xp 00000000 08:01 390506                     /lib64/libnl.so.1.1.4
+7feddb036000-7feddb235000 ---p 0004d000 08:01 390506                     /lib64/libnl.so.1.1.4
+7feddb235000-7feddb23b000 rw-p 0004c000 08:01 390506                     /lib64/libnl.so.1.1.4
+7feddb23b000-7feddb24b000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7feddb24b000-7feddb44a000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7feddb44a000-7feddb44b000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7feddb49d000-7feddb66d000 rw-p 00000000 00:00 0 
+7feddb66d000-7feddb677000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7feddb677000-7feddb877000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7feddb877000-7feddb878000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7feddb878000-7feddb880000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7feddb880000-7feddba80000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7feddba80000-7feddba81000 rw-p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7feddba81000-7feddba84000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7feddba84000-7feddbc83000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7feddbc83000-7feddbc84000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7feddbc84000-7feddbc90000 r-xp 00000000 08:01 390782                     /lib64/libnss_files-2.12.so
+7feddbc90000-7feddbe90000 ---p 0000c000 08:01 390782                     /lib64/libnss_files-2.12.so
+7feddbe90000-7feddbe91000 r--p 0000c000 08:01 390782                     /lib64/libnss_files-2.12.so
+7feddbe91000-7feddbe92000 rw-p 0000d000 08:01 390782                     /lib64/libnss_files-2.12.so
+7feddbe92000-7feddc00a000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7feddc00a000-7feddc209000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7feddc209000-7feddc210000 rw-p 00177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7feddc210000-7feddc214000 rw-p 00000000 00:00 0 
+7feddc214000-7feddc21a000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7feddc21a000-7feddc419000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7feddc419000-7feddc41a000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7feddc41a000-7feddc5a4000 r-xp 00000000 08:01 390799                     /lib64/libc-2.12.so
+7feddc5a4000-7feddc7a4000 ---p 0018a000 08:01 390799                     /lib64/libc-2.12.so
+7feddc7a4000-7feddc7a8000 r--p 0018a000 08:01 390799                     /lib64/libc-2.12.so
+7feddc7a8000-7feddc7a9000 rw-p 0018e000 08:01 390799                     /lib64/libc-2.12.so
+7feddc7a9000-7feddc7ae000 rw-p 00000000 00:00 0 
+7feddc7ae000-7feddc7c4000 r-xp 00000000 08:01 390656                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7feddc7c4000-7feddc9c3000 ---p 00016000 08:01 390656                     /l/lib64/libc.so.6(+0x75f4e)[0x7f4a7bcf1f4e]
+ib64/libgcc_s-4.4.7-20120601.so.1
+7feddc9c3000-7feddc9c4000 rw-p 00015000 08:01 390656                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7feddc9c4000-7feddca47000 r-xp 00000000 08:01 390613                     /lib64/libm-2.12.so
+7feddca47000-7feddcc46000 ---p 00083000 08:01 390613                     /lib64/libm-2.12.so
+7feddcc46000-7feddcc47000 r--p 00082000 08:01 390613                     /lib64/libm-2.12.so
+7feddcc47000-7feddcc48000 rw-p 00083000 08:01 390613                     /lib64/libm-2.12.so
+7feddcc48000-7feddcc5f000 r-xp 00000000 08:01 390783                     /lib64/libpthread-2.12.so
+7feddcc5f000-7feddce5f000 ---p 00017000 08:01 390783                     /lib64/libpthread-2.12.so
+7feddce5f000-7feddce60000 r--p 00017000 08:01 390783                     /lib64/libpthread-2.12.so
+7feddce60000-7feddce61000 rw-p 00018000 08:01 390783                     /lib64/libpthread-2.12.so
+7feddce61000-7feddce65000 rw-p 00000000 00:00 0 
+7feddce65000-7feddce6c000 r-xp 00000000 08:01 390772            /lib64/libc.so.6(+0x78cad)[0x7f4a7bcf4cad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+         /lib64/librt-2.12.so
+7feddce6c000-7feddd06b000 ---p 00007000 08:01 390772                     /lib64/librt-2.12.so
+7feddd06b000-7feddd06c000 r--p 00006000 08:01 390772                     /lib64/librt-2.12.so
+7feddd06c000-7feddd06d000 rw-p 00007000 08:01 390772                     /lib64/librt-2.12.so
+7feddd06d000-7feddd06f000 r-xp 00000000 08:01 390507                     /lib64/libdl-2.12.so
+7feddd06f000-7feddd26f000 ---p 00002000 08:01 390507                     /lib64/libdl-2.12.so
+7feddd26f000-7feddd270000 r--p 00002000 08:01 390507                     /lib64/libdl-2.12.so
+7feddd270000-7feddd271000 rw-p 00003000 08:01 390507                     /lib64/libdl-2.12.so
+7feddd271000-7feddd7ba000 r-xp 00000000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7feddd7ba000-7feddd9ba000 ---p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3./lib64/libc.so.6(__libc_start_main+0xfd)[0x7f4a7bc9ad5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7feddd9ba000-7feddd9ed000 rw-p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7feddd9ed000-7feddda40000 rw-p 00000000 00:00 0 
+7feddda40000-7fedddbb4000 r-xp 00000000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fedddbb4000-7feddddb3000 ---p 00174000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7feddddb3000-7feddddba000 rw-p 00173000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7feddddba000-7feddddde000 rw-p 00000000 00:00 0 
+7feddddde000-7feddddfe000 r-xp 00000000 08:01 390381                     /lib64/ld-2.12.so
+7feddde82000-7fedddfed000 rw00400000-00404000 r-xp 00000000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00754000-0084b000 rw-p 00000000 00:00 0                                  [heap]
+7f4a5c000000-7f4a5c021000 rw-p 00000000 00:00 0 
+7f4a5c021000-7f4a60000000 ---p 00000000 00:00 0 
+7f4a64000000-7f4a64021000 rw-p 00000000 00:00 0 
+7f4a64021000-7f4a68000000 ---p 00000000 00:00 0 
+7f4a6a009000-7f4a6a00a000 ---p 00000000 00:00 0 
+7f4a6a00a000-7f4a7a00a000 rw-p 00000000 00:00 0 
+7f4a7a00a000-7f4a7a030000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7f4a7a030000-7f4a7a230000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7f4a7a230000-7f4a7a231000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7f4a7a231000-7f4a7a23c000 r-xp 00000000 08:02 1730         -p 00000000 00:00 0 
+7fedddfef000-7fedddff2000 rw-p 00000000 00:00 0 
+7fedddff2000-7fedddff3000 -w-s 387fff68c000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddff3000-7fedddff4000 -w-s 387fff28c000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddff4000-7fedddff5000 -w-s 387fff68b000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddff5000-7fedddff6000 -w-s 387fff28b000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddff6000-7fedddff7000 -w-s 387fff689000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddff7000-7fedddff8000 -w-s 387fff289000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddff8000-7fedddff9000 -w-s 387fff685000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddff9000-7fedddffa000 -w-s 387fff285000 00:05 11952                  /dev/infiniband/uverbs0
+7fedddffa000-7fedddffc000 rw-p 00000000 00:00 0 
+7fedddffc000-7fedddffd000 r-xp 00000000 00:00 0                          [vdso]
+7fedddffd000-7fedddffe000 r--p 0001f000 08:01 390              /usr/lib64/libmlx5-rdmav2.so
+7f4a7a23c000-7f4a7a43b000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7f4a7a43b000-7f4a7a43c000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7f4a7a43c000-7f4a7a443000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7f4a7a443000-7f4a7a643000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7f4a7a643000-7f4a7a644000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7f4a7a644000-7f4a7a64b000 r-xp 00000000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7f4a7a64b000-7f4a7a84a000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7f4a7a84a000-7f4a7a84b000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7f4a7a84b000-7f4a7a898000 r-xp 00000000 08:01 1139                       /lib64/libnl.so.1.1.4
+7f4a7a898000-7f4a7aa97000 ---p 0004d000 08:01 1139                 381                     /lib64/ld-2.12.so
+7fedddffe000-7fedddfff000 rw-p 00020000 08:01 390381                     /lib64/ld-2.12.so
+7fedddfff000-7fedde000000 rw-p 00000000 00:00 0 
+7ffd877c1000-7ffd877d9000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+      /lib64/libnl.so.1.1.4
+7f4a7aa97000-7f4a7aa9d000 rw-p 0004c000 08:01 1139                       /lib64/libnl.so.1.1.4
+7f4a7aa9d000-7f4a7aaad000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7f4a7aaad000-7f4a7acac000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7f4a7acac000-7f4a7acad000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7f4a7acff000-7f4a7aecf000 rw-p 00000000 00:00 0 
+7f4a7aecf000-7f4a7aed9000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7f4a7aed9000-7f4a7b0d9000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7f4a7b0d9000-7f4a7b0da000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7f4a7b0da000-7f4a7b0e2000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7f4a7b0e2000-7f4a7b2e2000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7f4a7b2e2000-7f4a7b2e3000 rw-p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7f4a7b2e3000-7f4a7b2e6000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7f4a7b2e6000-7f4a7b4e5000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7f4a7b4e5000-7f4a7b4e6000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7f4a7b4e6000-7f4a7b4f2000 r-xp 00000000 08:01 1415                       /lib64/libnss_files-2.12.so
+7f4a7b4f2000-7f4a7b6f2000 ---p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7f4a7b6f2000-7f4a7b6f3000 r--p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7f4a7b6f3000-7f4a7b6f4000 rw-p 0000d000 08:01 1415                       /lib64/libnss_files-2.12.so
+7f4a7b6f4000-7f4a7b86c000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7f4a7b86c000-7f4a7ba6b000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7f4a7ba6b000-7f4a7ba72000 rw-p 00177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7f4a7ba72000-7f4a7ba76000 rw-p 00000000 00:00 0 
+7f4a7ba76000-7f4a7ba7c000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7f4a7ba7c000-7f4a7bc7b000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7f4a7bc7b000-7f4a7bc7c000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7f4a7bc7c000-7f4a7be06000 r-xp 00000000 08:01 1432                       /lib64/libc-2.12.so
+7f4a7be06000-7f4a7c006000 ---p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7f4a7c006000-7f4a7c00a000 r--p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7f4a7c00a000-7f4a7c00b000 rw-p 0018e000 08:01 1432                       /lib64/libc-2.12.so
+7f4a7c00b000-7f4a7c010000 rw-p 00000000 00:00 0 
+7f4a7c010000-7f4a7c026000 r-xp 00000000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7f4a7c026000-7f4a7c225000 ---p 00016000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7f4a7c225000-7f4a7c226000 rw-p 00015000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7f4a7c226000-7f4a7c2a9000 r-xp 00000000 08:01 1246                       /lib64/libm-2.12.so
+7f4a7c2a9000-7f4a7c4a8000 ---p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7f4a7c4a8000-7f4a7c4a9000 r--p 00082000 08:01 1246                       /lib64/libm-2.12.so
+7f4a7c4a9000-7f4a7c4aa000 rw-p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7f4a7c4aa000-7f4a7c4c1000 r-xp 00000000 08:01 1416                       /lib64/libpthread-2.12.so
+7f4a7c4c1000-7f4a7c6c1000 ---p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7f4a7c6c1000-7f4a7c6c2000 r--p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7f4a7c6c2000-7f4a7c6c3000 rw-p 00018000 08:01 1416                       /lib64/libpthread-2.12.so
+7f4a7c6c3000-7f4a7c6c7000 rw-p 00000000 00:00 0 
+7f4a7c6c7000-7f4a7c6ce000 r-xp 00000000 08:01 1405                       /lib64/librt-2.12.so
+7f4a7c6ce000-7f4a7c8cd000 ---p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7f4a7c8cd000-7f4a7c8ce000 r--p 00006000 08:01 1405                       /lib64/librt-2.12.so
+7f4a7c8ce000-7f4a7c8cf000 rw-p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7f4a7c8cf000-7f4a7c8d1000 r-xp 00000000 08:01 1140                       /lib64/libdl-2.12.so
+7f4a7c8d1000-7f4a7cad1000 ---p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7f4a7cad1000-7f4a7cad2000 r--p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7f4a7cad2000-7f4a7cad3000 rw-p 00003000 08:01 1140                       /lib64/libdl-2.12.so
+7f4a7cad3000-7f4a7d01c000 r-xp 00000000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7f4a7d01c000-7f4a7d21c000 ---p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7f4a7d21c000-7f4a7d24f000 rw-p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7f4a7d24f000-7f4a7d2a2000 rw-p 00000000 00:00 0 
+7f4a7d2a2000-7f4a7d416000 r-xp 00000000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7f4a7d416000-7f4a7d615000 ---p 00174000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7f4a7d615000-7f4a7d61c000 rw-p 00173000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7f4a7d61c000-7f4a7d640000 rw-p 00000000 00:00 0 
+7f4a7d640000-7f4a7d660000 r-xp 00000000 08:01 1014                       /lib64/ld-2.12.so
+7f4a7d6e5000-7f4a7d850000 rw-p 00000000 00:00 0 
+7f4a7d852000-7f4a7d855000 rw-p 00000000 00:00 0 
+7f4a7d855000-7f4a7d856000 -w-s 387fff624000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d856000-7f4a7d857000 -w-s 387fff224000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d857000-7f4a7d858000 -w-s 387fff623000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d858000-7f4a7d859000 -w-s 387fff223000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d859000-7f4a7d85a000 -w-s 387fff621000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d85a000-7f4a7d85b000 -w-s 387fff221000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d85b000-7f4a7d85c000 -w-s 387fff61d000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d85c000-7f4a7d85d000 -w-s 387fff21d000 00:05 11894                  /dev/infiniband/uverbs0
+7f4a7d85d000-7f4a7d85f000 rw-p 00000000 00:00 0 
+7f4a7d85f000-7f4a7d860000 r--p 0001f000 08:01 1014                       /lib64/ld-2.12.so
+7f4a7d860000-7f4a7d861000 rw-p 00020000 08:01 1014                       /lib64/ld-2.12.so
+7f4a7d861000-7f4a7d862000 rw-p 00000000 00:00 0 
+7fffa25fe000-7fffa2616000 rw-p 00000000 00:00 0                          [stack]
+7fffa26a2000-7fffa26a3000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+======= Backtrace: =========
+/lib64/libc.so.6(+0x75f4e)[0x7fa5904c2f4e]
+/lib64/libc.so.6(+0x78cad)[0x7fa5904c5cad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x7fa59046bd5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+======= Backtrace: =========
+00400000-00404000 r-xp 00000000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+009ee000-00adf000 rw-p 00000000 00:00 0                                  [heap]
+7fa570000000-7fa570021000 rw-p 00000000 00:00 0 
+7fa570021000-7fa574000000 ---p 00000000 00:00 0 
+7fa578000000-7fa578021000 rw-p 00000000 00:00 0 
+7fa578021000-7fa57c000000 ---p 00000000 00:00 0 
+7fa57e7da000-7fa57e7db000 ---p 00000000 00:00 0 
+7fa57e7db000-7fa58e7db000 rw-p 00000000 00:00 0 
+7fa58e7db000-7fa58e801000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fa58e801000-7fa58ea01000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fa58ea01000-7fa58ea02000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fa58ea02000-7fa58ea09000 r-xp 00000000 08:02 4637         /lib64/libc.so.6(+0x75f4e)[0x7faa15c28f4e]
+              /usr/lib64/libmlx4-rdmav2.so
+7fa58ea09000-7fa58ec08000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fa58ec08000-7fa58ec09000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fa58ec09000-7fa58ec14000 r-xp 00000000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fa58ec14000-7fa58ee13000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fa58ee13000-7fa58ee14000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fa58ee14000-7fa58ee1b000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fa58ee1b000-7fa58f01b000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fa58f01b000-7fa58f01c000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fa58f01c000-7fa58f069000 r-xp 00000000 08:01 1139                       /lib64/libnl.so.1.1.4
+7fa58f069000-7fa58f268000 ---p 0004d000 08:01 1139                 /lib64/libc.so.6(+0x78cad)[0x7faa15c2bcad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x7faa15bd1d5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+      /lib64/libnl.so.1.1.4
+7fa58f268000-7fa58f26e000 rw-p 0004c000 08:01 1139                       /lib64/libnl.so.1.1.4
+7fa58f26e000-7fa58f27e000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fa58f27e000-7fa58f47d000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fa58f47d000-7fa58f47e000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fa58f4d0000-7fa58f6a0000 rw-p 00000000 00:00 0 
+7fa58f6a0000-7fa58f6aa000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fa58f6aa000-7fa58f8aa000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fa58f8aa000-7fa58f8ab000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fa58f8ab000-7fa58f8b3000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fa58f8b3000-7fa58fab3000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fa58fab3000-7fa58fab4000 rw-p 0000400000-00404000 r-xp 00000000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+021d7000-022c8000 rw-p 00000000 00:00 0                                  [heap]
+7fa9f4000000-7fa9f4021000 rw-p 00000000 00:00 0 
+7fa9f4021000-7fa9f8000000 ---p 00000000 00:00 0 
+7fa9fc000000-7fa9fc021000 rw-p 00000000 00:00 0 
+7fa9fc021000-7faa00000000 ---p 00000000 00:00 0 
+7faa03f40000-7faa03f41000 ---p 00000000 00:00 0 
+7faa03f41000-7faa13f41000 rw-p 00000000 00:00 0 
+7faa13f41000-7faa13f67000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7faa13f67000-7faa14167000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7faa14167000-7faa14168000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7faa14168000-7faa1416f000 r-xp 00000000 08:02 4637         008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fa58fab4000-7fa58fab7000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fa58fab7000-7fa58fcb6000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fa58fcb6000-7fa58fcb7000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fa58fcb7000-7fa58fcc3000 r-xp 00000000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fa58fcc3000-7fa58fec3000 ---p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fa58fec3000-7fa58fec4000 r--p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fa58fec4000-7fa58fec5000 rw-p 0000d000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fa58fec5000-7fa59003d000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fa59003d000-7fa59023c000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fa59023c000-7fa590243000 rw-p 00177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fa590243000-7fa590247000 rw-p 00000000 00:00 0 
+7fa590247000-7fa59024d000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fa59024d000-7fa59044c000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fa59044c000-7fa59044d000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fa59044d000-7fa5905d7000 r-xp 00000000 08:01 1432                       /lib64/libc-2.12.so
+7fa5905d7000-7fa5907d7000 ---p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7fa5907d7000-7fa5907db000 r--p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7fa5907db000-7fa5907dc000 rw-p 0018e000 08:01 1432                       /lib64/libc-2.12.so
+7fa5907dc000-7fa5907e1000 rw-p 00000000 00:00 0 
+7fa5907e1000-7fa5907f7000 r-xp 00000000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fa5907f7000-7fa5909f6000 ---p 00016000 08:01 1289                       /l              /usr/lib64/libmlx4-rdmav2.so
+7faa1416f000-7faa1436e000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7faa1436e000-7faa1436f000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7faa1436f000-7faa1437a000 r-xp 00000000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7faa1437a000-7faa14579000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7faa14579000-7faa1457a000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7faa1457a000-7faa14581000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7faa14581000-7faa14781000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7faa14781000-7faa14782000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7faa14782000-7faa147cf000 r-xp 00000000 08:01 1139                       /lib64/libnl.so.1.1.4
+7faa147cf000-7faa149ce000 ---p 0004d000 08:01 1139                 ib64/libgcc_s-4.4.7-20120601.so.1
+7fa5909f6000-7fa5909f7000 rw-p 00015000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fa5909f7000-7fa590a7a000 r-xp 00000000 08:01 1246                       /lib64/libm-2.12.so
+7fa590a7a000-7fa590c79000 ---p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7fa590c79000-7fa590c7a000 r--p 00082000 08:01 1246                       /lib64/libm-2.12.so
+7fa590c7a000-7fa590c7b000 rw-p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7fa590c7b000-7fa590c92000 r-xp 00000000 08:01 1416                       /lib64/libpthread-2.12.so
+7fa590c92000-7fa590e92000 ---p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7fa590e92000-7fa590e93000 r--p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7fa590e93000-7fa590e94000 rw-p 00018000 08:01 1416                       /lib64/libpthread-2.12.so
+7fa590e94000-7fa590e98000 rw-p 00000000 00:00 0 
+7fa590e98000-7fa590e9f000 r-xp 00000000 08:01 1405                    /lib64/libnl.so.1.1.4
+7faa149ce000-7faa149d4000 rw-p 0004c000 08:01 1139                       /lib64/libnl.so.1.1.4
+7faa149d4000-7faa149e4000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7faa149e4000-7faa14be3000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7faa14be3000-7faa14be4000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7faa14c36000-7faa14e06000 rw-p 00000000 00:00 0 
+7faa14e06000-7faa14e10000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7faa14e10000-7faa15010000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7faa15010000-7faa15011000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7faa15011000-7faa15019000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7faa15019000-7faa15219000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7faa15219000-7faa1521a000 rw-p 00         /lib64/librt-2.12.so
+7fa590e9f000-7fa59109e000 ---p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7fa59109e000-7fa59109f000 r--p 00006000 08:01 1405                       /lib64/librt-2.12.so
+7fa59109f000-7fa5910a0000 rw-p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7fa5910a0000-7fa5910a2000 r-xp 00000000 08:01 1140                       /lib64/libdl-2.12.so
+7fa5910a2000-7fa5912a2000 ---p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7fa5912a2000-7fa5912a3000 r--p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7fa5912a3000-7fa5912a4000 rw-p 00003000 08:01 1140                       /lib64/libdl-2.12.so
+7fa5912a4000-7fa5917ed000 r-xp 00000000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fa5917ed000-7fa5919ed000 ---p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7faa1521a000-7faa1521d000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7faa1521d000-7faa1541c000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7faa1541c000-7faa1541d000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7faa1541d000-7faa15429000 r-xp 00000000 08:01 1415                       /lib64/libnss_files-2.12.so
+7faa15429000-7faa15629000 ---p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7faa15629000-7faa1562a000 r--p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7faa1562a000-7faa1562b000 rw-p 0000d000 08:01 1415                       /lib64/libnss_files-2.12.so
+7faa1562b000-7faa157a3000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7faa157a3000-7faa159a2000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7faa159a2000-7faa159a9000 rw-p 00223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fa5919ed000-7fa591a20000 rw-p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fa591a20000-7fa591a73000 rw-p 00000000 00:00 0 
+7fa591a73000-7fa591be7000 r-xp 00000000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fa591be7000-7fa591de6000 ---p 00174000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fa591de6000-7fa591ded000 rw-p 00173000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fa591ded000-7fa591e11000 rw-p 00000000 00:00 0 
+7fa591e11000-7fa591e31000 r-xp 00000000 08:01 1014                       /lib64/ld-2.12.so
+7fa591eb6000-7fa592021000 rw177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7faa159a9000-7faa159ad000 rw-p 00000000 00:00 0 
+7faa159ad000-7faa159b3000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7faa159b3000-7faa15bb2000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7faa15bb2000-7faa15bb3000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7faa15bb3000-7faa15d3d000 r-xp 00000000 08:01 1432                       /lib64/libc-2.12.so
+7faa15d3d000-7faa15f3d000 ---p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7faa15f3d000-7faa15f41000 r--p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7faa15f41000-7faa15f42000 rw-p 0018e000 08:01 1432                       /lib64/libc-2.12.so
+7faa15f42000-7faa15f47000 rw-p 00000000 00:00 0 
+7faa15f47000-7faa15f5d000 r-xp 00000000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7faa15f5d000-7faa1615c000 ---p 00016000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7faa1615c000-7faa1615d000 rw-p 00015000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7faa1615d000-7faa161e0000 r-xp 00000000 08:01 1246                       /lib64/libm-2.12.so
+7faa161e0000-7faa163df000 ---p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7faa163df000-7faa163e0000 r--p 00082000 08:01 1246                       /lib64/libm-2.12.so
+7faa163e0000-7faa163e1000 rw-p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7faa163e1000-7faa163f8000 r-xp 00000000 08:01 1416                       /lib64/libpthread-2.12.so
+7faa163f8000-7faa165f8000 ---p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7faa165f8000-7faa165f9000 r--p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7faa165f9000-7faa165fa000 rw-p 00018000 08:01 1416                       /lib64/libpthread-2.12.so
+7faa165fa000-7faa165fe000 rw-p 00000000 00:00 0 
+7faa165fe000-7faa16605000 r-xp 00000000 08:01 1405                       /lib64/librt-2.12.so
+7faa16605000-7faa16804000 ---p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7faa16804000-7faa16805000 r--p 00006000 08:01 1405                       /lib64/librt-2.12.so
+7faa16805000-7faa16806000 rw-p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7faa16806000-7faa16808000 r-xp 00000000 08:01 1140                       /lib64/libdl-2.12.so
+7faa16808000-7faa16a08000 ---p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7faa16a08000-7faa16a09000 r--p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7faa16a09000-7faa16a0a000 rw-p 00003000 08:01 1140                       /lib64/libdl-2.12.so
+7faa16a0a000-7faa16f53000 r-xp 00000000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7faa16f53000-7faa17153000 ---p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7faa17153000-7faa17186000 rw-p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7faa17186000-7faa171d9000 rw-p 00000000 00:00 0 
+7faa171d9000-7faa1734d000 r-xp 00000000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7faa1734d000-7faa1754c000 ---p 00174000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7faa1754c000-7faa17553000 rw-p 00173000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7faa17553000-7faa17577000 rw-p 00000000 00:00 0 
+7faa17577000-7faa17597000 r-xp 00000000 08:01 1014                       /lib64/ld-2.12.so
+7faa1761c000-7faa17787000 rw-p 00000000 00:00 0 
+7faa17789000-7faa1778c000 rw-p 00000000 00:00 0 
+7faa1778c000-7faa1778d000 -w-s 387fff7dc000 00:05 11906                  /dev/infiniband/uverbs0
+7faa1778d000-7faa1778e000 -w-s 387fff3dc000 00:05 11906                  /dev/infiniband/uverbs0
+7faa1778e000-7faa1778f000 -w-s 387fff7db000 00:05 11906                  /dev/infiniband/uverbs0
+7faa1778f000-7faa17790000 -w-s 387fff3db000 00:05 11906                  /dev/infiniband/uverbs0
+7faa17790000-7faa17791000 -w-s 387fff7d9000 00:05 11906                  /dev/infiniband/uverbs0
+7faa17791000-7faa17792000 -w-s 387fff3d9000 00:05 11906                  /dev/infiniband/uverbs0
+7faa17792000-7faa17793000 -w-s 387fff7d5000 00:05 11906                  /dev/infiniband/uverbs0
+7faa17793000-7faa17794000 -w-s 387fff3d5000 00:05 11906                  /dev/infiniband/uverbs0
+7faa17794000-7faa17796000 rw-p 00000000 00:00 0 
+7faa17796000-7faa17797000 r--p 0001f000 08:01 1014                       /lib64/ld-2.12.so
+7faa17797000-7faa17798000 rw-p 00020000 08:01 1014                       /lib64/ld-2.12.so
+7faa17798000-7faa17799000 rw-p 00000000 00:00 0 
+7ffde453e000-7ffde4557000 rw-p 00000000 00:00 0                          [stack]
+7ffde45d9000-7ffde45da000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+-p 00000000 00:00 0 
+7fa592023000-7fa592026000 rw-p 00000000 00:00 0 
+7fa592026000-7fa592027000 -w-s 387fff59e000 00:05 11943                  /dev/infiniband/uverbs0
+7fa592027000-7fa592028000 -w-s 387fff19e000 00:05 11943                  /dev/infiniband/uverbs0
+7fa592028000-7fa592029000 -w-s 387fff59d000 00:05 11943                  /dev/infiniband/uverbs0
+7fa592029000-7fa59202a000 -w-s 387fff19d000 00:05 11943                  /dev/infiniband/uverbs0
+7fa59202a000-7fa59202b000 -w-s 387fff59b000 00:05 11943                  /dev/infiniband/uverbs0
+7fa59202b000-7fa59202c000 -w-s 387fff19b000 00:05 11943                  /dev/infiniband/uverbs0
+7fa59202c000-7fa59202d000 -w-s 387fff597000 00:05 11943                  /dev/infiniband/uverbs0
+7fa59202d000-7fa59202e000 -w-s 387fff197000 00:05 11943                  /dev/infiniband/uverbs0
+7fa59202e000-7fa592030000 rw-p 00000000 00:00 0 
+7fa592030000-7fa592031000 r--p 0001f000 08:01 1014                       /lib64/ld-2.12.so
+7fa592031000-7fa592032000 rw-p 00020000 08:01 1014                       /lib64/ld-2.12.so
+7fa592032000-7fa592033000 rw-p 00000000 00:00 0 
+7ffd354dc000-7ffd354f4000 rw-p 00000000 00:00 0                          [stack]
+7ffd355fa000-7ffd355fb000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+======= Backtrace: =========
+/lib64/libc.so.6(+0x75f4e)[0x7fc31a9c2f4e]
+/lib64/libc.so.6(+0x78cad)[0x7fc31a9c5cad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x7fc31a96bd5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+00400000-00404000 r-xp 00000000 00:48 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:48 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+01bb9000-01caa000 rw-p 00000000 00:00 0                                  [heap]
+7fc2fc000000-7fc2fc021000 rw-p 00000000 00:00 0 
+7fc2fc021000-7fc300000000 ---p 00000000 00:00 0 
+7fc304000000-7fc304021000 rw-p 00000000 00:00 0 
+7fc304021000-7fc308000000 ---p 00000000 00:00 0 
+7fc308cda000-7fc308cdb000 ---p 00000000 00:00 0 
+7fc308cdb000-7fc318cdb000 rw-p 00000000 00:00 0 
+7fc318cdb000-7fc318d01000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fc318d01000-7fc318f01000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fc318f01000-7fc318f02000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fc318f02000-7fc318f0d000 r-xp 00000000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fc318f0d000-7fc31910c000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fc31910c000-7fc31910d000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fc31910d000-7fc319114000 r-xp 00000000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fc319114000-7fc319313000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fc319313000-7fc319314000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fc319314000-7fc31931b000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fc31931b000-7fc31951b000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fc31951b000-7fc31951c000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fc31951c000-7fc319569000 r-xp 00000000 08:01 390922                     /lib64/libnl.so.1.1.4
+7fc319569000-7fc319768000 ---p 0004d000 08:01 390922                     /lib64/libnl.so.1.1.4
+7fc319768000-7fc31976e000 rw-p 0004c000 08:01 390922                     /lib64/libnl.so.1.1.4
+7fc31976e000-7fc31977e000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fc31977e000-7fc31997d000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fc31997d000-7fc31997e000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fc3199d0000-7fc319ba0000 rw-p 00000000 00:00 0 
+7fc319ba0000-7fc319baa000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fc319baa000-7fc319daa000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fc319daa000-7fc319dab000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fc319dab000-7fc319db3000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fc319db3000-7fc319fb3000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fc319fb3000-7fc319fb4000 rw-p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fc319fb4000-7fc319fb7000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fc319fb7000-7fc31a1b6000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fc31a1b6000-7fc31a1b7000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fc31a1b7000-7fc31a1c3000 r-xp 00000000 08:01 391198                     /lib64/libnss_files-2.12.so
+7fc31a1c3000-7fc31a3c3000 ---p 0000c000 08:01 391198                     /lib64/libnss_files-2.12.so
+7fc31a3c3000-7fc31a3c4000 r--p 0000c000 08:01 391198                     /lib64/libnss_files-2.12.so
+7fc31a3c4000-7fc31a3c5000 rw-p 0000d000 08:01 391198                     /lib64/libnss_files-2.12.so
+7fc31a3c5000-7fc31a53d000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fc31a53d000-7fc31a73c000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fc31a73c000-7fc31a743000 rw-p 00177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fc31a743000-7fc31a747000 rw-p 00000000 00:00 0 
+7fc31a747000-7fc31a74d000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fc31a74d000-7fc31a94c000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fc31a94c000-7fc31a94d000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fc31a94d000-7fc31aad7000 r-xp 00000000 08:01 391215                     /lib64/libc-2.12.so
+7fc31aad7000-7fc31acd7000 ---p 0018a000 08:01 391215                     /lib64/libc-2.12.so
+7fc31acd7000-7fc31acdb000 r--p 0018a000 08:01 391215                     /lib64/libc-2.12.so
+7fc31acdb000-7fc31acdc000 rw-p 0018e000 08:01 391215                     /lib64/libc-2.12.so
+7fc31acdc000-7fc31ace1000 rw-p 00000000 00:00 0 
+7fc31ace1000-7fc31acf7000 r-xp 00000000 08:01 391072                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7fc31acf7000-7fc31aef6000 ---p 00016000 08:01 391072                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7fc31aef6000-7fc31aef7000 rw-p 00015000 08:01 391072                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7fc31aef7000-7fc31af7a000 r-xp 00000000 08:01 391029                     /lib64/libm-2.12.so
+7fc31af7a000-7fc31b179000 ---p 00083000 08:01 391029                     /lib64/libm-2.12.so
+7fc31b179000-7fc31b17a000 r--p 00082000 08:01 391029                     /lib64/libm-2.12.so
+7fc31b17a000-7fc31b17b000 rw-p 00083000 08:01 391029                     /lib64/libm-2.12.so
+7fc31b17b000-7fc31b192000 r-xp 00000000 08:01 391199                     /lib64/libpthread-2.12.so
+7fc31b192000-7fc31b392000 ---p 00017000 08:01 391199                     /lib64/libpthread-2.12.so
+7fc31b392000-7fc31b393000 r--p 00017000 08:01 391199                     /lib64/libpthread-2.12.so
+7fc31b393000-7fc31b394000 rw-p 00018000 08:01 391199                     /lib64/libpthread-2.12.so
+7fc31b394000-7fc31b398000 rw-p 00000000 00:00 0 
+7fc31b398000-7fc31b39f000 r-xp 00000000 08:01 391188                     /lib64/librt-2.12.so
+7fc31b39f000-7fc31b59e000 ---p 00007000 08:01 391188                     /lib64/librt-2.12.so
+7fc31b59e000-7fc31b59f000 r--p 00006000 08:01 391188                     /lib64/librt-2.12.so
+7fc31b59f000-7fc31b5a0000 rw-p 00007000 08:01 391188                     /lib64/librt-2.12.so
+7fc31b5a0000-7fc31b5a2000 r-xp 00000000 08:01 390923                     /lib64/libdl-2.12.so
+7fc31b5a2000-7fc31b7a2000 ---p 00002000 08:01 390923                     /lib64/libdl-2.12.so
+7fc31b7a2000-7fc31b7a3000 r--p 00002000 08:01 390923                     /lib64/libdl-2.12.so
+7fc31b7a3000-7fc31b7a4000 rw-p 00003000 08:01 390923                     /lib64/libdl-2.12.so
+7fc31b7a4000-7fc31bced000 r-xp 00000000 00:25 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fc31bced000-7fc31beed000 ---p 00549000 00:25 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fc31beed000-7fc31bf20000 rw-p 00549000 00:25 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fc31bf20000-7fc31bf73000 rw-p 00000000 00:00 0 
+7fc31bf73000-7fc31c0e7000 r-xp 00000000 00:25 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fc31c0e7000-7fc31c2e6000 ---p 00174000 00:25 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fc31c2e6000-7fc31c2ed000 rw-p 00173000 00:25 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fc31c2ed000-7fc31c311000 rw-p 00000000 00:00 0 
+7fc31c311000-7fc31c331000 r-xp 00000000 08:01 390797                     /lib64/ld-2.12.so
+7fc31c3b6000-7fc31c521000 rw-p 00000000 00:00 0 
+7fc31c523000-7fc31c526000 rw-p 00000000 00:00 0 
+7fc31c526000-7fc31c527000 -w-s 387fff7e7000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c527000-7fc31c528000 -w-s 387fff3e7000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c528000-7fc31c529000 -w-s 387fff7e6000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c529000-7fc31c52a000 -w-s 387fff3e6000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c52a000-7fc31c52b000 -w-s 387fff7e4000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c52b000-7fc31c52c000 -w-s 387fff3e4000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c52c000-7fc31c52d000 -w-s 387fff7e0000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c52d000-7fc31c52e000 -w-s 387fff3e0000 00:05 11919                  /dev/infiniband/uverbs0
+7fc31c52e000-7fc31c530000 rw-p 00000000 00:00 0 
+7fc31c530000-7fc31c531000 r--p 0001f000 08:01 390797                     /lib64/ld-2.12.so
+7fc31c531000-7fc31c532000 rw-p 00020000 08:01 390797                     /lib64/ld-2.12.so
+7fc31c532000-7fc31c533000 rw-p 00000000 00:00 0 
+7fff9283d000-7fff92856000 rw-p 00000000 00:00 0                          [stack]
+7fff9286a000-7fff9286b000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+======= Backtrace: =========
+/lib64/libc.so.6(+0x75f4e)[0x7fec337daf4e]
+/lib64/libc.so.6(+0x78cad)[0x7fec337ddcad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x7fec33783d5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+00400000-00404000 r-xp 00000000 00:2b 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:2b 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00cdb000-00dcc000 rw-p 00000000 00:00 0                                  [heap]
+7fec14000000-7fec14021000 rw-p 00000000 00:00 0 
+7fec14021000-7fec18000000 ---p 00000000 00:00 0 
+7fec1c000000-7fec1c021000 rw-p 00000000 00:00 0 
+7fec1c021000-7fec20000000 ---p 00000000 00:00 0 
+7fec21af2000-7fec21af3000 ---p 00000000 00:00 0 
+7fec21af3000-7fec31af3000 rw-p 00000000 00:00 0 
+7fec31af3000-7fec31b19000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fec31b19000-7fec31d19000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fec31d19000-7fec31d1a000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fec31d1a000-7fec31d21000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fec31d21000-7fec31f21000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fec31f21000-7fec31f22000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fec31f22000-7fec31f29000 r-xp 00000000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fec31f29000-7fec32128000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fec32128000-7fec32129000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fec32129000-7fec32134000 r-xp 00000000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fec32134000-7fec32333000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fec32333000-7fec32334000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fec32334000-7fec32381000 r-xp 00000000 08:01 1139                       /lib64/libnl.so.1.1.4
+7fec32381000-7fec32580000 ---p 0004d000 08:01 1139                       /lib64/libnl.so.1.1.4
+7fec32580000-7fec32586000 rw-p 0004c000 08:01 1139                       /lib64/libnl.so.1.1.4
+7fec32586000-7fec32596000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fec32596000-7fec32795000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fec32795000-7fec32796000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fec327e8000-7fec329b8000 rw-p 00000000 00:00 0 
+7fec329b8000-7fec329c2000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fec329c2000-7fec32bc2000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fec32bc2000-7fec32bc3000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fec32bc3000-7fec32bcb000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fec32bcb000-7fec32dcb000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fec32dcb000-7fec32dcc000 rw-p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fec32dcc000-7fec32dcf000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fec32dcf000-7fec32fce000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fec32fce000-7fec32fcf000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fec32fcf000-7fec32fdb000 r-xp 00000000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fec32fdb000-7fec331db000 ---p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fec331db000-7fec331dc000 r--p 0000c000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fec331dc000-7fec331dd000 rw-p 0000d000 08:01 1415                       /lib64/libnss_files-2.12.so
+7fec331dd000-7fec33355000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fec33355000-7fec33554000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fec33554000-7fec3355b000 rw-p 00177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fec3355b000-7fec3355f000 rw-p 00000000 00:00 0 
+7fec3355f000-7fec33565000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fec33565000-7fec33764000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fec33764000-7fec33765000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fec33765000-7fec338ef000 r-xp 00000000 08:01 1432                       /lib64/libc-2.12.so
+7fec338ef000-7fec33aef000 ---p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7fec33aef000-7fec33af3000 r--p 0018a000 08:01 1432                       /lib64/libc-2.12.so
+7fec33af3000-7fec33af4000 rw-p 0018e000 08:01 1432                       /lib64/libc-2.12.so
+7fec33af4000-7fec33af9000 rw-p 00000000 00:00 0 
+7fec33af9000-7fec33b0f000 r-xp 00000000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fec33b0f000-7fec33d0e000 ---p 00016000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fec33d0e000-7fec33d0f000 rw-p 00015000 08:01 1289                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fec33d0f000-7fec33d92000 r-xp 00000000 08:01 1246                       /lib64/libm-2.12.so
+7fec33d92000-7fec33f91000 ---p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7fec33f91000-7fec33f92000 r--p 00082000 08:01 1246                       /lib64/libm-2.12.so
+7fec33f92000-7fec33f93000 rw-p 00083000 08:01 1246                       /lib64/libm-2.12.so
+7fec33f93000-7fec33faa000 r-xp 00000000 08:01 1416                       /lib64/libpthread-2.12.so
+7fec33faa000-7fec341aa000 ---p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7fec341aa000-7fec341ab000 r--p 00017000 08:01 1416                       /lib64/libpthread-2.12.so
+7fec341ab000-7fec341ac000 rw-p 00018000 08:01 1416                       /lib64/libpthread-2.12.so
+7fec341ac000-7fec341b0000 rw-p 00000000 00:00 0 
+7fec341b0000-7fec341b7000 r-xp 00000000 08:01 1405                       /lib64/librt-2.12.so
+7fec341b7000-7fec343b6000 ---p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7fec343b6000-7fec343b7000 r--p 00006000 08:01 1405                       /lib64/librt-2.12.so
+7fec343b7000-7fec343b8000 rw-p 00007000 08:01 1405                       /lib64/librt-2.12.so
+7fec343b8000-7fec343ba000 r-xp 00000000 08:01 1140                       /lib64/libdl-2.12.so
+7fec343ba000-7fec345ba000 ---p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7fec345ba000-7fec345bb000 r--p 00002000 08:01 1140                       /lib64/libdl-2.12.so
+7fec345bb000-7fec345bc000 rw-p 00003000 08:01 1140                       /lib64/libdl-2.12.so
+7fec345bc000-7fec34b05000 r-xp 00000000 00:27 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fec34b05000-7fec34d05000 ---p 00549000 00:27 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fec34d05000-7fec34d38000 rw-p 00549000 00:27 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fec34d38000-7fec34d8b000 rw-p 00000000 00:00 0 
+7fec34d8b000-7fec34eff000 r-xp 00000000 00:27 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fec34eff000-7fec350fe000 ---p 00174000 00:27 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fec350fe000-7fec35105000 rw-p 00173000 00:27 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fec35105000-7fec35129000 rw-p 00000000 00:00 0 
+7fec35129000-7fec35149000 r-xp 00000000 08:01 1014                       /lib64/ld-2.12.so
+7fec351ce000-7fec35339000 rw-p 00000000 00:00 0 
+7fec3533b000-7fec3533e000 rw-p 00000000 00:00 0 
+7fec3533e000-7fec3533f000 -w-s 387fff64d000 00:05 11911                  /dev/infiniband/uverbs0
+7fec3533f000-7fec35340000 -w-s 387fff24d000 00:05 11911                  /dev/infiniband/uverbs0
+7fec35340000-7fec35341000 -w-s 387fff64c000 00:05 11911                  /dev/infiniband/uverbs0
+7fec35341000-7fec35342000 -w-s 387fff24c000 00:05 11911                  /dev/infiniband/uverbs0
+7fec35342000-7fec35343000 -w-s 387fff64a000 00:05 11911                  /dev/infiniband/uverbs0
+7fec35343000-7fec35344000 -w-s 387fff24a000 00:05 11911                  /dev/infiniband/uverbs0
+7fec35344000-7fec35345000 -w-s 387fff646000 00:05 11911                  /dev/infiniband/uverbs0
+7fec35345000-7fec35346000 -w-s 387fff246000 00:05 11911                  /dev/infiniband/uverbs0
+7fec35346000-7fec35348000 rw-p 00000000 00:00 0 
+7fec35348000-7fec35349000 r--p 0001f000 08:01 1014                       /lib64/ld-2.12.so
+7fec35349000-7fec3534a000 rw-p 00020000 08:01 1014                       /lib64/ld-2.12.so
+7fec3534a000-7fec3534b000 rw-p 00000000 00:00 0 
+7ffd48381000-7ffd4839a000 rw-p 00000000 00:00 0                          [stack]
+7ffd483a3000-7ffd483a4000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+======= Backtrace: =========
+/lib64/libc.so.6(+0x75f4e)[0x7fd61d639f4e]
+/lib64/libc.so.6(+0x78cad)[0x7fd61d63ccad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x7fd61d5e2d5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+00400000-00404000 r-xp 00000000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:2a 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00b3c000-00c2d000 rw-p 00000000 00:00 0                                  [heap]
+7fd5fc000000-7fd5fc021000 rw-p 00000000 00:00 0 
+7fd5fc021000-7fd600000000 ---p 00000000 00:00 0 
+7fd604000000-7fd604021000 rw-p 00000000 00:00 0 
+7fd604021000-7fd608000000 ---p 00000000 00:00 0 
+7fd60b951000-7fd60b952000 ---p 00000000 00:00 0 
+7fd60b952000-7fd61b952000 rw-p 00000000 00:00 0 
+7fd61b952000-7fd61b978000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fd61b978000-7fd61bb78000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fd61bb78000-7fd61bb79000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fd61bb79000-7fd61bb84000 r-xp 00000000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fd61bb84000-7fd61bd83000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fd61bd83000-7fd61bd84000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fd61bd84000-7fd61bd8b000 r-xp 00000000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fd61bd8b000-7fd61bf8a000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fd61bf8a000-7fd61bf8b000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fd61bf8b000-7fd61bf92000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fd61bf92000-7fd61c192000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fd61c192000-7fd61c193000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fd61c193000-7fd61c1e0000 r-xp 00000000 08:01 1138                       /lib64/libnl.so.1.1.4
+7fd61c1e0000-7fd61c3df000 ---p 0004d000 08:01 1138                       /lib64/libnl.so.1.1.4
+7fd61c3df000-7fd61c3e5000 rw-p 0004c000 08:01 1138                       /lib64/libnl.so.1.1.4
+7fd61c3e5000-7fd61c3f5000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fd61c3f5000-7fd61c5f4000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fd61c5f4000-7fd61c5f5000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fd61c647000-7fd61c817000 rw-p 00000000 00:00 0 
+7fd61c817000-7fd61c821000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fd61c821000-7fd61ca21000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fd61ca21000-7fd61ca22000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fd61ca22000-7fd61ca2a000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fd61ca2a000-7fd61cc2a000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fd61cc2a000-7fd61cc2b000 rw-p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fd61cc2b000-7fd61cc2e000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fd61cc2e000-7fd61ce2d000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fd61ce2d000-7fd61ce2e000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fd61ce2e000-7fd61ce3a000 r-xp 00000000 08:01 1414                       /lib64/libnss_files-2.12.so
+7fd61ce3a000-7fd61d03a000 ---p 0000c000 08:01 1414                       /lib64/libnss_files-2.12.so
+7fd61d03a000-7fd61d03b000 r--p 0000c000 08:01 1414                       /lib64/libnss_files-2.12.so
+7fd61d03b000-7fd61d03c000 rw-p 0000d000 08:01 1414                       /lib64/libnss_files-2.12.so
+7fd61d03c000-7fd61d1b4000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fd61d1b4000-7fd61d3b3000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fd61d3b3000-7fd61d3ba000 rw-p 00177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fd61d3ba000-7fd61d3be000 rw-p 00000000 00:00 0 
+7fd61d3be000-7fd61d3c4000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fd61d3c4000-7fd61d5c3000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fd61d5c3000-7fd61d5c4000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fd61d5c4000-7fd61d74e000 r-xp 00000000 08:01 1431                       /lib64/libc-2.12.so
+7fd61d74e000-7fd61d94e000 ---p 0018a000 08:01 1431                       /lib64/libc-2.12.so
+7fd61d94e000-7fd61d952000 r--p 0018a000 08:01 1431                       /lib64/libc-2.12.so
+7fd61d952000-7fd61d953000 rw-p 0018e000 08:01 1431                       /lib64/libc-2.12.so
+7fd61d953000-7fd61d958000 rw-p 00000000 00:00 0 
+7fd61d958000-7fd61d96e000 r-xp 00000000 08:01 1288                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fd61d96e000-7fd61db6d000 ---p 00016000 08:01 1288                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fd61db6d000-7fd61db6e000 rw-p 00015000 08:01 1288                       /lib64/libgcc_s-4.4.7-20120601.so.1
+7fd61db6e000-7fd61dbf1000 r-xp 00000000 08:01 1245                       /lib64/libm-2.12.so
+7fd61dbf1000-7fd61ddf0000 ---p 00083000 08:01 1245                       /lib64/libm-2.12.so
+7fd61ddf0000-7fd61ddf1000 r--p 00082000 08:01 1245                       /lib64/libm-2.12.so
+7fd61ddf1000-7fd61ddf2000 rw-p 00083000 08:01 1245                       /lib64/libm-2.12.so
+7fd61ddf2000-7fd61de09000 r-xp 00000000 08:01 1415                       /lib64/libpthread-2.12.so
+7fd61de09000-7fd61e009000 ---p 00017000 08:01 1415                       /lib64/libpthread-2.12.so
+7fd61e009000-7fd61e00a000 r--p 00017000 08:01 1415                       /lib64/libpthread-2.12.so
+7fd61e00a000-7fd61e00b000 rw-p 00018000 08:01 1415                       /lib64/libpthread-2.12.so
+7fd61e00b000-7fd61e00f000 rw-p 00000000 00:00 0 
+7fd61e00f000-7fd61e016000 r-xp 00000000 08:01 1404                       /lib64/librt-2.12.so
+7fd61e016000-7fd61e215000 ---p 00007000 08:01 1404                       /lib64/librt-2.12.so
+7fd61e215000-7fd61e216000 r--p 00006000 08:01 1404                       /lib64/librt-2.12.so
+7fd61e216000-7fd61e217000 rw-p 00007000 08:01 1404                       /lib64/librt-2.12.so
+7fd61e217000-7fd61e219000 r-xp 00000000 08:01 1139                       /lib64/libdl-2.12.so
+7fd61e219000-7fd61e419000 ---p 00002000 08:01 1139                       /lib64/libdl-2.12.so
+7fd61e419000-7fd61e41a000 r--p 00002000 08:01 1139                       /lib64/libdl-2.12.so
+7fd61e41a000-7fd61e41b000 rw-p 00003000 08:01 1139                       /lib64/libdl-2.12.so
+7fd61e41b000-7fd61e964000 r-xp 00000000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fd61e964000-7fd61eb64000 ---p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.======= Backtrace: =========
+/lib64/libc.so.6(+0x75f4e)[0x7fdb178b7f4e]
+223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fd61eb64000-7fd61eb97000 rw-p 00549000 00:26 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fd61eb97000-7fd61ebea000 rw-p 00000000 00:00 0 
+7fd61ebea000-7fd61ed5e000 r-xp 00000000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fd61ed5e000-7fd61ef5d000 ---p 00174000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fd61ef5d000-7fd61ef64000 rw-p 00173000 00:26 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fd61ef64000-7fd61ef88000 rw-p 00000000 00:00 0 
+7fd61ef88000-7fd61efa8000 r-xp 00000000 08:01 1013                       /lib64/ld-2.12.so
+7fd61f02d000-7fd61f198000 rw-p 00000000 00:00 0 
+7fd61f19a000-7fd61f19d000 rw-p 00000000 00:00 0 
+7fd61f19d000-7fd61f19e000 -w-s 387fff547000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f19e000-7fd61f19f000 -w-s 387fff147000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f19f000-7fd61f1a0000 -w-s 387fff546000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f1a0000-7fd61f1a1000 -w-s 387fff146000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f1a1000-7fd61f1a2000 -w-s 387fff544000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f1a2000-7fd61f1a3000 -w-s 387fff144000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f1a3000-7fd61f1a4000 -w-s 387fff540000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f1a4000-7fd61f1a5000 -w-s 387fff140000 00:05 11915                  /dev/infiniband/uverbs0
+7fd61f1a5000-7fd61f1a7000 rw-p 00000000 00:00 0 
+7fd61f1a7000-7fd61f1a8000 r--p 0001f000 08:01 1013                       /lib64/ld-2.12.so
+7fd61f1a8000-7fd61f1a9000 rw-p 00020000 08:01 1013                       /lib64/ld-2.12.so
+7fd61f1a9000-7fd61f1aa000 rw-p 00000000 00:00 0 
+7ffdd924e000-7ffdd9267000 rw-p 00000000 00:00 0                          [stack]
+7ffdd93e8000-7ffdd93e9000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+/lib64/libc.so.6(+0x78cad)[0x7fdb178bacad]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x4010cb]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x7fdb17860d5d]
+/mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./sendrecv.out[0x400e29]
+======= Memory map: ========
+00400000-00404000 r-xp 00000000 00:48 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00604000-00605000 rw-p 00004000 00:48 2650605                            /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/sendrecv.out
+00a6d000-00b64000 rw-p 00000000 00:00 0                                  [heap]
+7fdaf8000000-7fdaf8021000 rw-p 00000000 00:00 0 
+7fdaf8021000-7fdafc000000 ---p 00000000 00:00 0 
+7fdb00000000-7fdb00021000 rw-p 00000000 00:00 0 
+7fdb00021000-7fdb04000000 ---p 00000000 00:00 0 
+7fdb05bcf000-7fdb05bd0000 ---p 00000000 00:00 0 
+7fdb05bd0000-7fdb15bd0000 rw-p 00000000 00:00 0 
+7fdb15bd0000-7fdb15bf6000 r-xp 00000000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fdb15bf6000-7fdb15df6000 ---p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fdb15df6000-7fdb15df7000 rw-p 00026000 08:02 2605                       /usr/lib64/libdaploucm.so.2.0.0
+7fdb15df7000-7fdb15e02000 r-xp 00000000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fdb15e02000-7fdb16001000 ---p 0000b000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fdb16001000-7fdb16002000 rw-p 0000a000 08:02 1730                       /usr/lib64/libmlx5-rdmav2.so
+7fdb16002000-7fdb16009000 r-xp 00000000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fdb16009000-7fdb16208000 ---p 00007000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fdb16208000-7fdb16209000 rw-p 00006000 08:02 4637                       /usr/lib64/libmlx4-rdmav2.so
+7fdb16209000-7fdb16210000 r-xp 00000000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fdb16210000-7fdb16410000 ---p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fdb16410000-7fdb16411000 rw-p 00007000 08:02 2460                       /usr/lib64/libmthca-rdmav2.so
+7fdb16411000-7fdb1645e000 r-xp 00000000 08:01 390506                     /lib64/libnl.so.1.1.4
+7fdb1645e000-7fdb1665d000 ---p 0004d000 08:01 390506                     /lib64/libnl.so.1.1.4
+7fdb1665d000-7fdb16663000 rw-p 0004c000 08:01 390506                     /lib64/libnl.so.1.1.4
+7fdb16663000-7fdb16673000 r-xp 00000000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fdb16673000-7fdb16872000 ---p 00010000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fdb16872000-7fdb16873000 rw-p 0000f000 08:02 1774                       /usr/lib64/libibverbs.so.1.0.0
+7fdb168c5000-7fdb16a95000 rw-p 00000000 00:00 0 
+7fdb16a95000-7fdb16a9f000 r-xp 00000000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fdb16a9f000-7fdb16c9f000 ---p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fdb16c9f000-7fdb16ca0000 rw-p 0000a000 08:02 4656                       /usr/lib64/libdat2.so.2.0.0
+7fdb16ca0000-7fdb16ca8000 r-xp 00000000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fdb16ca8000-7fdb16ea8000 ---p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fdb16ea8000-7fdb16ea9000 rw-p 00008000 08:02 4635                       /usr/lib64/libmunge.so.2.0.0
+7fdb16ea9000-7fdb16eac000 r-xp 00000000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fdb16eac000-7fdb170ab000 ---p 00003000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fdb170ab000-7fdb170ac000 rw-p 00002000 08:02 2563                       /usr/lib64/slurm/auth_munge.so
+7fdb170ac000-7fdb170b8000 r-xp 00000000 08:01 390782                     /lib64/libnss_files-2.12.so
+7fdb170b8000-7fdb172b8000 ---p 0000c000 08:01 390782                     /lib64/libnss_files-2.12.so
+7fdb172b8000-7fdb172b9000 r--p 0000c000 08:01 390782                     /lib64/libnss_files-2.12.so
+7fdb172b9000-7fdb172ba000 rw-p 0000d000 08:01 390782                     /lib64/libnss_files-2.12.so
+7fdb172ba000-7fdb17432000 r-xp 00000000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fdb17432000-7fdb17631000 ---p 00178000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fdb17631000-7fdb17638000 rw-p 00177000 08:02 2294                       /usr/lib64/libslurm.so.28.0.0
+7fdb17638000-7fdb1763c000 rw-p 00000000 00:00 0 
+7fdb1763c000-7fdb17642000 r-xp 00000000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fdb17642000-7fdb17841000 ---p 00006000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fdb17841000-7fdb17842000 rw-p 00005000 08:02 4684                       /usr/lib64/libpmi.so.0.0.0
+7fdb17842000-7fdb179cc000 r-xp 00000000 08:01 390799                     /lib64/libc-2.12.so
+7fdb179cc000-7fdb17bcc000 ---p 0018a000 08:01 390799                     /lib64/libc-2.12.so
+7fdb17bcc000-7fdb17bd0000 r--p 0018a000 08:01 390799                     /lib64/libc-2.12.so
+7fdb17bd0000-7fdb17bd1000 rw-p 0018e000 08:01 390799                     /lib64/libc-2.12.so
+7fdb17bd1000-7fdb17bd6000 rw-p 00000000 00:00 0 
+7fdb17bd6000-7fdb17bec000 r-xp 00000000 08:01 390656                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7fdb17bec000-7fdb17deb000 ---p 00016000 08:01 390656                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7fdb17deb000-7fdb17dec000 rw-p 00015000 08:01 390656                     /lib64/libgcc_s-4.4.7-20120601.so.1
+7fdb17dec000-7fdb17e6f000 r-xp 00000000 08:01 390613                     /lib64/libm-2.12.so
+7fdb17e6f000-7fdb1806e000 ---p 00083000 08:01 390613                     /lib64/libm-2.12.so
+7fdb1806e000-7fdb1806f000 r--p 00082000 08:01 390613                     /lib64/libm-2.12.so
+7fdb1806f000-7fdb18070000 rw-p 00083000 08:01 390613                     /lib64/libm-2.12.so
+7fdb18070000-7fdb18087000 r-xp 00000000 08:01 390783                     /lib64/libpthread-2.12.so
+7fdb18087000-7fdb18287000 ---p 00017000 08:01 390783                     /lib64/libpthread-2.12.so
+7fdb18287000-7fdb18288000 r--p 00017000 08:01 390783                     /lib64/libpthread-2.12.so
+7fdb18288000-7fdb18289000 rw-p 00018000 08:01 390783                     /lib64/libpthread-2.12.so
+7fdb18289000-7fdb1828d000 rw-p 00000000 00:00 0 
+7fdb1828d000-7fdb18294000 r-xp 00000000 08:01 390772                     /lib64/librt-2.12.so
+7fdb18294000-7fdb18493000 ---p 00007000 08:01 390772                     /lib64/librt-2.12.so
+7fdb18493000-7fdb18494000 r--p 00006000 08:01 390772                     /lib64/librt-2.12.so
+7fdb18494000-7fdb18495000 rw-p 00007000 08:01 390772                     /lib64/librt-2.12.so
+7fdb18495000-7fdb18497000 r-xp 00000000 08:01 390507                     /lib64/libdl-2.12.so
+7fdb18497000-7fdb18697000 ---p 00002000 08:01 390507                     /lib64/libdl-2.12.so
+7fdb18697000-7fdb18698000 r--p 00002000 08:01 390507                     /lib64/libdl-2.12.so
+7fdb18698000-7fdb18699000 rw-p 00003000 08:01 390507                     /lib64/libdl-2.12.so
+7fdb18699000-7fdb18be2000 r-xp 00000000 00:25 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fdb18be2000-7fdb18de2000 ---p 00549000 00:25 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fdb18de2000-7fdb18e15000 rw-p 00549000 00:25 917208                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/release_mt/libmpi.so.12.0
+7fdb18e15000-7fdb18e68000 rw-p 00000000 00:00 0 
+7fdb18e68000-7fdb18fdc000 r-xp 00000000 00:25 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fdb18fdc000-7fdb191db000 ---p 00174000 00:25 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fdb191db000-7fdb191e2000 rw-p 00173000 00:25 917155                     /mnt/EMC/Optcesga_FT2/opt/cesga/intel/compilers_and_libraries_2016.3.223/linux/mpi/intel64/lib/libmpifort.so.12.0
+7fdb191e2000-7fdb19206000 rw-p 00000000 00:00 0 
+7fdb19206000-7fdb19226000 r-xp 00000000 08:01 390381                     /lib64/ld-2.12.so
+7fdb192ab000-7fdb19416000 rw-p 00000000 00:00 0 
+7fdb19418000-7fdb1941b000 rw-p 00000000 00:00 0 
+7fdb1941b000-7fdb1941c000 -w-s 387fff5d5000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb1941c000-7fdb1941d000 -w-s 387fff1d5000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb1941d000-7fdb1941e000 -w-s 387fff5d4000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb1941e000-7fdb1941f000 -w-s 387fff1d4000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb1941f000-7fdb19420000 -w-s 387fff5d2000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb19420000-7fdb19421000 -w-s 387fff1d2000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb19421000-7fdb19422000 -w-s 387fff5ce000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb19422000-7fdb19423000 -w-s 387fff1ce000 00:05 11919                  /dev/infiniband/uverbs0
+7fdb19423000-7fdb19425000 rw-p 00000000 00:00 0 
+7fdb19425000-7fdb19426000 r--p 0001f000 08:01 390381                     /lib64/ld-2.12.so
+7fdb19426000-7fdb19427000 rw-p 00020000 08:01 390381                     /lib64/ld-2.12.so
+7fdb19427000-7fdb19428000 rw-p 00000000 00:00 0 
+7ffef52ff000-7ffef5318000 rw-p 00000000 00:00 0                          [stack]
+7ffef5371000-7ffef5372000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+srun: error: c6637: task 0: Aborted
+srun: Terminating job step 276662.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: c6644: task 6: Aborted
+srun: error: c6645: task 7: Aborted
+srun: error: c6639: task 2: Aborted
+srun: error: c6643: task 5: Aborted
+srun: error: c6642: task 4: Aborted
+srun: error: c6640: task 3: Aborted
+srun: error: c6638: task 1: Aborted

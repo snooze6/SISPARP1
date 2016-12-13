@@ -1,0 +1,59 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=cf4ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1284ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=e00ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=238aab0
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       17213    c7315      +1
+[0] MPI startup(): 1       7411     c7331      +1
+[0] MPI startup(): 2       30060    c7337      +1
+[0] MPI startup(): 3       32580    c7340      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#---------------------------------------------------
+# Benchmarking GATHER
+# #processes = 4
+#---------------------------------------------------
+    #bytes #repetitions      t[usec]   Mbytes/sec
+         1         1000 1.446414e-05 65933.703661
+         2         1000 1.429391e-05 133437.859657
+         4         1000 1.294708e-05 294637.595757
+         8         1000 1.329088e-05 574032.217558
+        16         1000 1.380801e-05 1105067.771734
+        32         1000 1.377201e-05 2215913.025414
+        64         1000 1.406407e-05 4339792.164641
+       128         1000 1.474214e-05 8280368.088238
+       256         1000 1.475406e-05 16547355.493431
+       512         1000 1.489782e-05 32775341.676536
+      1024         1000 1.577497e-05 61905841.456964
+      2048         1000 1.721501e-05 113454746.901184
+      4096         1000 1.998091e-05 195499128.940649
+      8192         1000 2.493715e-05 313287569.076620
+     16384         1000 3.794193e-05 411813497.549328
+     32768         1000 6.640387e-05 470605131.445724
+     65536          640 1.113143e-04 561473325.591435
+    131072          320 1.498967e-04 833907390.102790
+    262144          160 3.875569e-04 645066651.287079
+    524288           80 2.761245e-04 1810777533.134741
+   1048576           40 5.514979e-04 1813243412.662387
+   2097152           20 1.128745e-03 1771879264.093952
+   4194304           10 2.340293e-03 1709187746.411435

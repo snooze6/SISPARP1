@@ -1,0 +1,54 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1958ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=6bbab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1677ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b0cab0
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       22649    c7050      +1
+[0] MPI startup(): 1       5714     c7052      +1
+[0] MPI startup(): 2       29646    c7053      +1
+[0] MPI startup(): 3       9453     c7054      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Starting benchmark process
+
+Tamaño del mensaje=4, Repeticiones=1000, Tiempo=   35.030842
+Tamaño del mensaje=8, Repeticiones=1000, Tiempo=   32.451153
+Tamaño del mensaje=16, Repeticiones=1000, Tiempo=   30.970573
+Tamaño del mensaje=32, Repeticiones=1000, Tiempo=   41.859150
+Tamaño del mensaje=64, Repeticiones=1000, Tiempo=   41.739941
+Tamaño del mensaje=128, Repeticiones=1000, Tiempo=   43.559074
+Tamaño del mensaje=256, Repeticiones=1000, Tiempo=   44.600964
+Tamaño del mensaje=512, Repeticiones=1000, Tiempo=   46.439171
+Tamaño del mensaje=1024, Repeticiones=1000, Tiempo=   51.178932
+Tamaño del mensaje=2048, Repeticiones=1000, Tiempo=   65.679550
+Tamaño del mensaje=4096, Repeticiones=1000, Tiempo=   84.691048
+Tamaño del mensaje=8192, Repeticiones=512, Tiempo=  122.752972
+Tamaño del mensaje=16384, Repeticiones=256, Tiempo=  184.644014
+Tamaño del mensaje=32768, Repeticiones=128, Tiempo=  330.545008
+Tamaño del mensaje=65536, Repeticiones=64, Tiempo=  660.307705
+Tamaño del mensaje=131072, Repeticiones=32, Tiempo= 1424.700022
+Tamaño del mensaje=262144, Repeticiones=16, Tiempo= 2698.749304
+Tamaño del mensaje=524288, Repeticiones=10, Tiempo= 8666.992188
+Tamaño del mensaje=1048576, Repeticiones=10, Tiempo=11970.043182
+Tamaño del mensaje=2097152, Repeticiones=10, Tiempo=23849.010468
+Tamaño del mensaje=4194304, Repeticiones=10, Tiempo=47260.046005

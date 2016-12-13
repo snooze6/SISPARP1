@@ -1,0 +1,53 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=19a8ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1edead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=a42ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=20aead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1c4cad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e1aad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b01ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1d44ad0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       24854    c7130      +1
+[0] MPI startup(): 1       24855    c7130      +1
+[0] MPI startup(): 2       24856    c7130      +1
+[0] MPI startup(): 3       24857    c7130      +1
+[0] MPI startup(): 4       24858    c7130      +1
+[0] MPI startup(): 5       24859    c7130      +1
+[0] MPI startup(): 6       24860    c7130      +1
+[0] MPI startup(): 7       24861    c7130      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Barrier
+#bytes		#repeticiones	tiempo[μseg]	Mbytes/sec
+0		1000		0.715494	0.000000
+1		1000		0.676513	1.409692
+2		1000		0.671506	2.840405
+4		1000		0.702024	5.433860
+8		1000		0.663996	11.490126
+16		1000		0.660062	23.117211
+32		1000		0.662923	46.034886
+64		1000		0.651956	93.618577
+128		1000		0.649452	187.958884
+256		1000		0.662565	368.477870
+512		1000		0.653505	747.172565
+1024		1000		0.655890	1488.913123
+2048		1000		0.652075	2995.246801
+4096		1000		0.638962	6113.432836
+8192		1000		0.634551	12311.854218
+16384		1000		0.643969	24263.606072
+32768		1000		0.640512	48789.130839
+65536		640		0.642985	97202.873696
+131072		320		0.631064	198078.110980
+262144		160		0.628084	398035.966785
+524288		80		0.682473	732629.519651
+1048576		40		0.676513	1478168.810573
+2097152		20		0.673532	2969418.761062
+4194304		10		0.703335	5687191.864407

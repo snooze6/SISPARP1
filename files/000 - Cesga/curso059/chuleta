@@ -1,0 +1,3 @@
+smap -i --> ver todas a  cola de traballos
+squeue -u curso059 --> ver a miña lista de tareas pendientes
+module load intel impi --> cargar variable de entorno para copilador de intel

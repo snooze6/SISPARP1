@@ -1,0 +1,60 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1a3cab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1927ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=7e3ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=236dab0
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       1816     c7025      +1
+[0] MPI startup(): 1       23455    c7026      +1
+[0] MPI startup(): 2       13354    c7027      +1
+[0] MPI startup(): 3       21053    c7028      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#----------------------------------------------
+# BENCHMARK: SendRecv
+# #processes 4 
+#----------------------------------------------
+	#bytes	#repetitions	tmin[usec]		tmax[usec]		tavg[usec]		MBytes/sec
+	0	1000		1.8301010132		1.8339157104		1.8317699432		0.0000000000
+	1	1000		1.8348693848		1.8370151520		1.8356442451		0.5195311232
+	2	1000		1.8289089203		1.8348693848		1.8324851990		1.0408534999
+	4	1000		1.8229484558		1.8250942230		1.8237233162		2.0917083374
+	8	1000		1.7881393433		1.7921924591		1.7903447151		4.2614109265
+	16	1000		1.9659996033		1.9690990448		1.9675493240		7.7552256892
+	32	1000		2.8650760651		2.8700828552		2.8675794601		10.6422781127
+	64	1000		2.9120445251		2.9139518738		2.9129981995		20.9526927484
+	128	1000		2.9048919678		2.9089450836		2.9074549675		41.9852805511
+	256	1000		3.0708312988		3.0729770660		3.0716061592		79.4830496963
+	512	1000		3.2029151917		3.2091140747		3.2059550285		152.3044601855
+	1024	1000		3.3409595490		3.3471584320		3.3445358276		291.9874536641
+	2048	1000		4.0130615234		4.0190219879		4.0155053139		486.3958200359
+	4096	1000		4.7729015350		4.7750473022		4.7739744186		818.2385696806
+	8192	1000		6.2901973724		6.2968730927		6.2935352325		1241.3531840739
+	16384	1000		7.8089237213		7.8179836273		7.8144669533		1999.4965867053
+	32768	1000		11.1060142517		11.1129283905		11.1102461815		2812.7189523549
+	65536	640		17.8813934326		17.8921967745		17.8855843842		3494.4343252883
+	131072	320		35.1652503014		35.1876020432		35.1766124368		3553.4973762662
+	262144	160		59.0249896049		59.0428709984		59.0346753597		4234.7992680003
+	524288	80		134.7482204437		135.1624727249		134.9590718746		3704.8269008883
+	1048576	40		275.7966518402		276.0291099548		275.8979797363		3624.5281714483
+	2097152	20		589.6449089050		591.3019180298		590.5240774155		3386.8221068197
+	4194304	10		1337.1944427490		1344.4185256958		1340.7766819000		2983.3454399964

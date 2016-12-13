@@ -1,0 +1,133 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=20c5ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c9dab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2581ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=869ab0
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       16264    c7009      +1
+[0] MPI startup(): 1       26443    c7010      +1
+[0] MPI startup(): 2       29436    c7011      +1
+[0] MPI startup(): 3       13098    c7012      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#------------------------------------------------------------
+#    Intel (R) MPI Benchmarks 4.1 Update 1, MPI-1 part    
+#------------------------------------------------------------
+# Date                  : Mon Oct 24 09:46:55 2016
+# Machine               : x86_64
+# System                : Linux
+# Release               : 2.6.32-573.12.1.el6.x86_64
+# Version               : #1 SMP Mon Nov 23 12:55:32 EST 2015
+# MPI Version           : 3.0
+# MPI Thread Environment: 
+
+# New default behavior from Version 3.2 on:
+
+# the number of iterations per message size is cut down 
+# dynamically when a certain run time (per message size sample) 
+# is expected to be exceeded. Time limit is defined by variable 
+# "SECS_PER_SAMPLE" (=> IMB_settings.h) 
+# or through the flag => -time 
+  
+
+
+# Calling sequence was: 
+
+# /opt/cesga/intel/impi/5.1.3.223/bin64/IMB-MPI1 sendrecv
+
+# Minimum message length in bytes:   0
+# Maximum message length in bytes:   4194304
+#
+# MPI_Datatype                   :   MPI_BYTE 
+# MPI_Datatype for reductions    :   MPI_FLOAT
+# MPI_Op                         :   MPI_SUM  
+#
+#
+
+# List of Benchmarks to run:
+
+# Sendrecv
+
+#-----------------------------------------------------------------------------
+# Benchmarking Sendrecv 
+# #processes = 2 
+# ( 2 additional processes waiting in MPI_Barrier)
+#-----------------------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]   Mbytes/sec
+            0         1000         1.88         1.88         1.88         0.00
+            1         1000         1.78         1.79         1.78         1.07
+            2         1000         1.77         1.77         1.77         2.15
+            4         1000         1.77         1.77         1.77         4.31
+            8         1000         1.73         1.73         1.73         8.81
+           16         1000         1.72         1.72         1.72        17.69
+           32         1000         2.80         2.80         2.80        21.82
+           64         1000         2.75         2.75         2.75        44.34
+          128         1000         2.79         2.79         2.79        87.44
+          256         1000         2.99         2.99         2.99       163.25
+          512         1000         3.06         3.06         3.06       319.13
+         1024         1000         3.42         3.43         3.43       569.76
+         2048         1000         3.97         3.97         3.97       983.20
+         4096         1000         4.79         4.79         4.79      1631.39
+         8192         1000         6.18         6.18         6.18      2527.91
+        16384         1000         8.15         8.15         8.15      3834.31
+        32768         1000        11.19        11.20        11.19      5582.28
+        65536          640        17.24        17.24        17.24      7249.68
+       131072          320        35.05        35.06        35.06      7130.14
+       262144          160        56.21        56.23        56.22      8891.89
+       524288           80       122.10       122.11       122.11      8189.20
+      1048576           40       231.55       231.60       231.58      8635.59
+      2097152           20       495.90       496.01       495.95      8064.42
+      4194304           10       977.42       977.59       977.50      8183.41
+
+#-----------------------------------------------------------------------------
+# Benchmarking Sendrecv 
+# #processes = 4 
+#-----------------------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]   Mbytes/sec
+            0         1000         1.46         1.46         1.46         0.00
+            1         1000         1.48         1.49         1.48         1.28
+            2         1000         1.48         1.49         1.48         2.57
+            4         1000         1.48         1.48         1.48         5.14
+            8         1000         1.48         1.49         1.49        10.26
+           16         1000         1.50         1.50         1.50        20.37
+           32         1000         2.49         2.49         2.49        24.52
+           64         1000         2.49         2.49         2.49        49.02
+          128         1000         2.57         2.58         2.58        94.67
+          256         1000         2.78         2.78         2.78       175.39
+          512         1000         2.90         2.90         2.90       336.62
+         1024         1000         3.29         3.30         3.29       592.59
+         2048         1000         4.01         4.01         4.01       973.38
+         4096         1000         4.73         4.73         4.73      1650.70
+         8192         1000         6.20         6.21         6.21      2515.68
+        16384         1000         8.03         8.04         8.04      3884.42
+        32768         1000        11.00        11.01        11.01      5677.68
+        65536          640        17.43        17.44        17.43      7168.37
+       131072          320        38.41        38.43        38.42      6505.07
+       262144          160        58.09        58.23        58.16      8587.19
+       524288           80       125.20       125.56       125.45      7964.12
+      1048576           40       234.63       235.05       234.91      8508.79
+      2097152           20       463.59       464.45       464.04      8612.31
+      4194304           10       940.20       943.61       942.37      8478.05
+
+
+# All processes entering MPI_Finalize
+

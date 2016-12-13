@@ -1,0 +1,271 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=65aab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=aeeab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2039ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1177ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=16adab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2231ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1248ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1c3cab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1126ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=16bfab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=170bab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=de8ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e2eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1112ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=107eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=62eab0
+[9] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[6] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[10] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[8] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[7] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[11] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[13] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[15] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[9] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[9] MPI startup(): dapl data transfer mode
+[14] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[6] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[6] MPI startup(): dapl data transfer mode
+[2] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[10] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[10] MPI startup(): dapl data transfer mode
+[8] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[8] MPI startup(): dapl data transfer mode
+[7] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[7] MPI startup(): dapl data transfer mode
+[11] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[11] MPI startup(): dapl data transfer mode
+[13] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[13] MPI startup(): dapl data transfer mode
+[15] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[15] MPI startup(): dapl data transfer mode
+[14] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[14] MPI startup(): dapl data transfer mode
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[12] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[5] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[12] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[12] MPI startup(): dapl data transfer mode
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[5] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[5] MPI startup(): dapl data transfer mode
+[4] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[4] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[4] MPI startup(): dapl data transfer mode
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[6] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[6] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[5] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[5] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[7] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[7] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[8] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[8] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[9] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[9] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[10] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[10] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[13] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[13] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[11] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[11] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[12] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[12] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[14] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[14] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[15] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[15] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       31883    c6945      +1
+[0] MPI startup(): 1       18702    c6946      +1
+[0] MPI startup(): 2       1346     c7205      +1
+[0] MPI startup(): 3       21300    c7206      +1
+[0] MPI startup(): 4       29841    c7207      +1
+[0] MPI startup(): 5       12677    c7209      +1
+[0] MPI startup(): 6       15368    c7210      +1
+[0] MPI startup(): 7       22844    c7211      +1
+[0] MPI startup(): 8       28386    c7212      +1
+[0] MPI startup(): 9       25356    c7213      +1
+[0] MPI startup(): 10      28469    c7214      +1
+[0] MPI startup(): 11      4415     c7215      +1
+[0] MPI startup(): 12      16242    c7216      +1
+[0] MPI startup(): 13      29367    c7217      +1
+[0] MPI startup(): 14      31166    c7219      +1
+[0] MPI startup(): 15      28204    c7224      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#------------------------------------------------------------
+#    Intel (R) MPI Benchmarks 4.1 Update 1, MPI-1 part    
+#------------------------------------------------------------
+# Date                  : Tue Nov  8 11:36:27 2016
+# Machine               : x86_64
+# System                : Linux
+# Release               : 2.6.32-573.12.1.el6.x86_64
+# Version               : #1 SMP Mon Nov 23 12:55:32 EST 2015
+# MPI Version           : 3.0
+# MPI Thread Environment: 
+
+# New default behavior from Version 3.2 on:
+
+# the number of iterations per message size is cut down 
+# dynamically when a certain run time (per message size sample) 
+# is expected to be exceeded. Time limit is defined by variable 
+# "SECS_PER_SAMPLE" (=> IMB_settings.h) 
+# or through the flag => -time 
+  
+
+
+# Calling sequence was: 
+
+# /opt/cesga/intel/impi/5.1.3.223/bin64/IMB-MPI1 reduce
+
+# Minimum message length in bytes:   0
+# Maximum message length in bytes:   4194304
+#
+# MPI_Datatype                   :   MPI_BYTE 
+# MPI_Datatype for reductions    :   MPI_FLOAT
+# MPI_Op                         :   MPI_SUM  
+#
+#
+
+# List of Benchmarks to run:
+
+# Reduce
+
+#----------------------------------------------------------------
+# Benchmarking Reduce 
+# #processes = 2 
+# ( 14 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.06
+            4         1000         1.86         1.87         1.86
+            8         1000         1.87         1.88         1.87
+           16         1000         1.85         1.86         1.85
+           32         1000         2.87         2.88         2.88
+           64         1000         2.90         2.90         2.90
+          128         1000         2.89         2.89         2.89
+          256         1000         3.14         3.15         3.15
+          512         1000         3.15         3.16         3.15
+         1024         1000         3.39         3.39         3.39
+         2048         1000         4.00         4.01         4.00
+         4096         1000         4.81         4.82         4.81
+         8192         1000         6.27         6.27         6.27
+        16384         1000         8.06         8.07         8.06
+        32768         1000        11.50        11.51        11.50
+        65536          640        18.59        18.62        18.61
+       131072          320        32.44        32.50        32.47
+       262144          160        58.28        58.36        58.32
+       524288           80       113.54       113.80       113.67
+      1048576           40       224.57       225.02       224.80
+      2097152           20       440.66       441.49       441.07
+      4194304           10       865.67       867.51       866.59
+
+#----------------------------------------------------------------
+# Benchmarking Reduce 
+# #processes = 4 
+# ( 12 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.07         0.10         0.08
+            4         1000         2.33         2.36         2.34
+            8         1000         2.35         2.37         2.36
+           16         1000         2.42         2.44         2.43
+           32         1000         3.26         3.27         3.27
+           64         1000         3.27         3.29         3.28
+          128         1000         3.46         3.47         3.47
+          256         1000         3.77         3.78         3.78
+          512         1000         3.93         3.94         3.94
+         1024         1000         4.33         4.36         4.35
+         2048         1000         5.27         5.29         5.28
+         4096         1000         6.42         6.44         6.43
+         8192         1000         8.35         8.38         8.37
+        16384         1000        13.37        13.38        13.38
+        32768         1000        18.20        18.24        18.22
+        65536          640        28.14        28.21        28.18
+       131072          320        48.12        48.28        48.21
+       262144          160        86.97        87.27        87.16
+       524288           80       167.47       168.30       167.97
+      1048576           40       330.50       332.18       331.55
+      2097152           20       643.10       646.00       644.79
+      4194304           10      1286.79      1290.39      1289.18
+
+#----------------------------------------------------------------
+# Benchmarking Reduce 
+# #processes = 8 
+# ( 8 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.07
+            4         1000         2.36         2.38         2.37
+            8         1000         2.38         2.40         2.39
+           16         1000         2.37         2.41         2.39
+           32         1000         3.39         3.42         3.41
+           64         1000         3.41         3.44         3.43
+          128         1000         3.63         3.65         3.64
+          256         1000         3.95         3.98         3.97
+          512         1000         4.16         4.19         4.18
+         1024         1000         4.68         4.70         4.69
+         2048         1000         5.66         5.69         5.68
+         4096         1000         6.85         6.87         6.86
+         8192         1000         9.45         9.49         9.46
+        16384         1000        14.27        14.33        14.31
+        32768         1000        19.32        19.40        19.36
+        65536          640        31.02        31.15        31.10
+       131072          320        52.05        52.33        52.23
+       262144          160        94.26        94.88        94.66
+       524288           80       177.97       179.44       178.82
+      1048576           40       347.54       350.45       349.21
+      2097152           20       673.34       679.74       677.14
+      4194304           10      1333.71      1342.58      1339.30
+
+#----------------------------------------------------------------
+# Benchmarking Reduce 
+# #processes = 16 
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.07
+            4         1000         2.38         2.41         2.39
+            8         1000         2.45         2.48         2.47
+           16         1000         2.35         2.40         2.38
+           32         1000         3.44         3.49         3.47
+           64         1000         3.44         3.50         3.47
+          128         1000         3.69         3.74         3.72
+          256         1000         4.04         4.09         4.06
+          512         1000         4.22         4.28         4.25
+         1024         1000         4.72         4.78         4.75
+         2048         1000         5.72         5.79         5.75
+         4096         1000         7.08         7.17         7.12
+         8192         1000         9.91        10.01         9.96
+        16384         1000        14.54        14.70        14.62
+        32768         1000        20.51        20.64        20.58
+        65536          640        32.76        33.02        32.91
+       131072          320        53.42        53.91        53.69
+       262144          160        95.62        96.93        96.39
+       524288           80       180.05       182.64       181.57
+      1048576           40       346.76       352.07       349.91
+      2097152           20       677.31       690.20       684.67
+      4194304           10      1338.41      1363.49      1353.09
+
+
+# All processes entering MPI_Finalize
+

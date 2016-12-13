@@ -3,7 +3,6 @@
 
 #include "common.h"
 
-int pingpong(int max, int iter);
-int main_pingpong(int argc, char **argv);
+void main_pingpong(int argc, char **argv);
 
 #endif

@@ -1,0 +1,53 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1cc7af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1981af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=18fbaf0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1a7baf0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=21b6af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=78aaf0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1645af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=83daf0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       25902    c7130      +1
+[0] MPI startup(): 1       25903    c7130      +1
+[0] MPI startup(): 2       25904    c7130      +1
+[0] MPI startup(): 3       25905    c7130      +1
+[0] MPI startup(): 4       25906    c7130      +1
+[0] MPI startup(): 5       25907    c7130      +1
+[0] MPI startup(): 6       25908    c7130      +1
+[0] MPI startup(): 7       25909    c7130      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Reduce
+#bytes		#repeticiones	tiempo[μseg]
+0		1000		50.067902
+1		1000		31.948090
+2		1000		33.140182
+4		1000		1516.819000
+8		1000		1477.003098
+16		1000		1502.990723
+32		1000		1530.170441
+64		1000		1578.807831
+128		1000		1712.083817
+256		1000		1805.067062
+512		1000		2160.787582
+1024		1000		2675.056458
+2048		1000		3137.111664
+4096		1000		6555.080414
+8192		1000		6981.849670
+16384		1000		10351.181030
+32768		1000		17065.048218
+65536		640		25733.947754
+131072		320		37154.912949
+262144		160		38749.933243
+524288		80		38646.936417
+1048576		40		38484.096527
+2097152		20		40857.076645
+4194304		10		50498.008728

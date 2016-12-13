@@ -1,0 +1,53 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=24d0ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e19ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=e9fad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1633ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=b5cad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b8fad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1a75ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=23dfad0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       25545    c7130      +1
+[0] MPI startup(): 1       25546    c7130      +1
+[0] MPI startup(): 2       25547    c7130      +1
+[0] MPI startup(): 3       25548    c7130      +1
+[0] MPI startup(): 4       25549    c7130      +1
+[0] MPI startup(): 5       25550    c7130      +1
+[0] MPI startup(): 6       25551    c7130      +1
+[0] MPI startup(): 7       25552    c7130      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+Gather
+#bytes		#repeticiones	tiempo[μseg]	Mbytes/sec
+0		1000		51.021576
+1		1000		452.041626
+2		1000		426.769257
+4		1000		463.962555
+8		1000		424.861908
+16		1000		437.974930
+32		1000		426.054001
+64		1000		464.916229
+128		1000		478.982925
+256		1000		521.183014
+512		1000		624.179840
+1024		1000		760.078430
+2048		1000		941.038132
+4096		1000		1425.981522
+8192		1000		2286.911011
+16384		1000		4303.932190
+32768		1000		8165.121078
+65536		640		14180.183411
+131072		320		10760.068893
+262144		160		11014.938354
+524288		80		17884.016037
+1048576		40		24672.985077
+2097152		20		28162.956238
+4194304		10		38847.923279

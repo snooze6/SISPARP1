@@ -1,0 +1,7 @@
+slurmstepd: execve(): /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./pingpong.out: No such file or directory
+srun: error: c7246: task 0: Exited with exit code 2
+srun: Terminating job step 290923.0
+srun: Job step 290923.0 aborted before step completely launched.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: execve(): /mnt/EMC/Home_FT2/home/usc/cursos/curso059/SendRecv/./pingpong.out: No such file or directory
+srun: error: c7248: task 1: Exited with exit code 2

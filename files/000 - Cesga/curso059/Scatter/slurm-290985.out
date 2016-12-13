@@ -1,0 +1,5 @@
+slurmstepd: *** STEP 290985.0 ON c6925 CANCELLED AT 2016-11-08T12:28:07 DUE TO TIME LIMIT ***
+slurmstepd: *** JOB 290985 ON c6925 CANCELLED AT 2016-11-08T12:28:07 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

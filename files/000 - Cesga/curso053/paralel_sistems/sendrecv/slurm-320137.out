@@ -1,0 +1,63 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=162eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1f6bab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=f7eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=12feab0
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       25005    c7345      +1
+[0] MPI startup(): 1       17084    c7346      +1
+[0] MPI startup(): 2       29136    c7347      +1
+[0] MPI startup(): 3       13756    c7348      +1
+I'm 1, right: 2, left: 0 
+I'm 3, right: 0, left: 2 
+I'm 2, right: 3, left: 1 
+[0] MPI startup(): I_MPI_DEBUG=5
+I'm 0, right: 1, left: 3 
+#---------------------------------------------------
+# Benchmarking SENDRECV
+# #processes = 4
+#---------------------------------------------------
+    #bytes #repetitions      t[usec]   Mbytes/sec
+         1         1000    18.990040     1.004394
+         2         1000    19.102097     1.997004
+         4         1000    18.990040     4.017577
+         8         1000    18.970966     8.043232
+        16         1000    19.168854    15.920398
+        32         1000    30.171871    20.229158
+        64         1000    29.759407    41.019067
+       128         1000    31.039715    78.654275
+       256         1000    32.799244   148.869666
+       512         1000    34.489632   283.146689
+      1024         1000    38.321018   509.674610
+      2048         1000    45.359135   861.182654
+      4096         1000    54.500103  1433.483529
+      8192         1000    72.038174  2168.988913
+     16384         1000    88.579655  3527.898151
+     32768         1000   118.770599  5262.245062
+     65536          640   193.890184  6446.948335
+    131072          320   395.938754  6314.107862
+    262144          160   607.743859  8227.150178
+    524288           80  1356.750727  7370.550686
+   1048576           40  2574.205399  7769.387793
+   2097152           20  5652.904510  7076.008435
+   4194304           10 13263.940811  6031.390002

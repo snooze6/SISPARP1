@@ -1,0 +1,76 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=242dad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1f7ead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2000ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=13c6ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1111ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=95ead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2399ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=d1cad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1ce0ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=24aead0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=6ebad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1bd9ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2605ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=13c1ad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=173bad0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=167fad0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[8] MPI startup(): shm data transfer mode
+[10] MPI startup(): shm data transfer mode
+[11] MPI startup(): shm data transfer mode
+[12] MPI startup(): shm data transfer mode
+[13] MPI startup(): shm data transfer mode
+[14] MPI startup(): shm data transfer mode
+[15] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[9] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       13864    c7253      +1
+[0] MPI startup(): 1       13865    c7253      +1
+[0] MPI startup(): 2       13866    c7253      +1
+[0] MPI startup(): 3       13867    c7253      +1
+[0] MPI startup(): 4       13868    c7253      +1
+[0] MPI startup(): 5       13869    c7253      +1
+[0] MPI startup(): 6       13870    c7253      +1
+[0] MPI startup(): 7       13871    c7253      +1
+[0] MPI startup(): 8       13872    c7253      +1
+[0] MPI startup(): 9       13873    c7253      +1
+[0] MPI startup(): 10      13874    c7253      +1
+[0] MPI startup(): 11      13875    c7253      +1
+[0] MPI startup(): 12      13876    c7253      +1
+[0] MPI startup(): 13      13877    c7253      +1
+[0] MPI startup(): 14      13878    c7253      +1
+[0] MPI startup(): 15      13879    c7253      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#bytes	#repetitions	t[μsec]
+0	1000	32.901764	
+1	1000	1061.916351	
+2	1000	738.859177	
+4	1000	730.991364	
+8	1000	755.071640	
+16	1000	728.130341	
+32	1000	781.059265	
+64	1000	811.815262	
+128	1000	849.962234	
+256	1000	880.002975	
+512	1000	1131.772995	
+1024	1000	2068.996429	
+2048	1000	1736.879349	
+4096	1000	2554.178238	
+8192	1000	4056.930542	
+16384	1000	7287.025452	
+32768	1000	13373.136520	
+65536	640	26711.940765	
+131072	320	27937.889099	
+262144	160	24819.850922	
+524288	80	24122.953415	
+1048576	40	25859.832764	
+2097152	20	29903.173447	
+4194304	10	41440.963745	

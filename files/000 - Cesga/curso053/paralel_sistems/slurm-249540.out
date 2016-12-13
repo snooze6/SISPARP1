@@ -1,0 +1,111 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=737ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=13a5ab0
+[0] MPI startup(): Multi-threaded optimized library
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       17794    c6903      +1
+[0] MPI startup(): 1       21815    c6904      +1
+#---------------------------------------------------
+# Benchmarking PingPong
+ # #processes = 2
+#---------------------------------------------------
+Hello from the processor 1 out of 2 
+[0] MPI startup(): I_MPI_DEBUG=5
+#---------------------------------------------------
+# Benchmarking PingPong
+ # #processes = 2
+#---------------------------------------------------
+Hello from the processor 0 out of 2 
+----------------RESULTS-----------------
+SIZE: 2, NUMBER ITER: 10000
+Total time:			0.034046 s
+Time elapsed:			34.046173 µs,
+Reported timing:		17.023087 µs!
+Benchmark throughput:	0.112045 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 8, NUMBER ITER: 10000
+Total time:			0.031990 s
+Time elapsed:			31.990051 µs,
+Reported timing:		15.995026 µs!
+Benchmark throughput:	0.476985 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 16, NUMBER ITER: 10000
+Total time:			0.030660 s
+Time elapsed:			30.659914 µs,
+Reported timing:		15.329957 µs!
+Benchmark throughput:	0.995358 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 32, NUMBER ITER: 10000
+Total time:			0.049258 s
+Time elapsed:			49.257994 µs,
+Reported timing:		24.628997 µs!
+Benchmark throughput:	1.239091 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 64, NUMBER ITER: 10000
+Total time:			0.048163 s
+Time elapsed:			48.162937 µs,
+Reported timing:		24.081469 µs!
+Benchmark throughput:	2.534528 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 128, NUMBER ITER: 10000
+Total time:			0.048608 s
+Time elapsed:			48.608065 µs,
+Reported timing:		24.304032 µs!
+Benchmark throughput:	5.022636 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 256, NUMBER ITER: 10000
+Total time:			0.051724 s
+Time elapsed:			51.723957 µs,
+Reported timing:		25.861979 µs!
+Benchmark throughput:	9.440137 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 512, NUMBER ITER: 10000
+Total time:			0.053964 s
+Time elapsed:			53.964138 µs,
+Reported timing:		26.982069 µs!
+Benchmark throughput:	18.096509 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 1024, NUMBER ITER: 10000
+Total time:			0.059611 s
+Time elapsed:			59.611082 µs,
+Reported timing:		29.805541 µs!
+Benchmark throughput:	32.764461 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 2048, NUMBER ITER: 10000
+Total time:			0.071711 s
+Time elapsed:			71.711063 µs,
+Reported timing:		35.855532 µs!
+Benchmark throughput:	54.472069 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 4096, NUMBER ITER: 10000
+Total time:			0.083938 s
+Time elapsed:			83.937883 µs,
+Reported timing:		41.968942 µs!
+Benchmark throughput:	93.074780 MB/s!
+
+----------------RESULTS-----------------
+SIZE: 1000000, NUMBER ITER: 10000
+Total time:			3.551448 s
+Time elapsed:			3551.447868 µs,
+Reported timing:		1775.723934 µs!
+Benchmark throughput:	537.062264 MB/s!
+

@@ -1,0 +1,140 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2483ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=e01ab0
+[0] MPI startup(): Multi-threaded optimized library
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=221fab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=af4ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=22d0ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1615ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=d7bab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2487ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=13efab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=d16ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1300ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=15d3ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2329ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b0aab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1902ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=f66ab0
+[2] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[2] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[2] MPI startup(): dapl data transfer mode
+[8] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[9] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[15] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[12] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[3] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[4] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[8] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[8] MPI startup(): dapl data transfer mode
+[1] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[9] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[9] MPI startup(): dapl data transfer mode
+[15] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[15] MPI startup(): dapl data transfer mode
+[12] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[12] MPI startup(): dapl data transfer mode
+[3] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[3] MPI startup(): dapl data transfer mode
+[10] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[4] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[4] MPI startup(): dapl data transfer mode
+[1] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[1] MPI startup(): dapl data transfer mode
+[10] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[10] MPI startup(): dapl data transfer mode
+[0] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[0] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[0] MPI startup(): dapl data transfer mode
+[14] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[6] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[11] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[7] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[14] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[14] MPI startup(): dapl data transfer mode
+[6] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[6] MPI startup(): dapl data transfer mode
+[11] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[11] MPI startup(): dapl data transfer mode
+[5] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[7] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[7] MPI startup(): dapl data transfer mode
+[5] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[5] MPI startup(): dapl data transfer mode
+[13] DAPL startup(): trying to open DAPL provider from I_MPI_DAPL_PROVIDER: ofa-v2-mlx4_0-1u
+[13] MPI startup(): DAPL provider ofa-v2-mlx4_0-1u
+[13] MPI startup(): dapl data transfer mode
+[6] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[6] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[5] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[5] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[7] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[7] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[4] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[9] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[9] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[8] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[8] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[3] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[11] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[11] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[10] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[10] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[13] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[13] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[1] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[12] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[12] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[14] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[14] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[2] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[0] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[15] MPID_nem_init_dapl_coll_fns(): User set DAPL collective mask = 0000
+[15] MPID_nem_init_dapl_coll_fns(): Effective DAPL collective mask = 0000
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       19963    c6645      +1
+[0] MPI startup(): 1       653      c7202      +1
+[0] MPI startup(): 2       16367    c7203      +1
+[0] MPI startup(): 3       10614    c7204      +1
+[0] MPI startup(): 4       15579    c7205      +1
+[0] MPI startup(): 5       1117     c7206      +1
+[0] MPI startup(): 6       11286    c7207      +1
+[0] MPI startup(): 7       10011    c7208      +1
+[0] MPI startup(): 8       23438    c7209      +1
+[0] MPI startup(): 9       1876     c7210      +1
+[0] MPI startup(): 10      29109    c7211      +1
+[0] MPI startup(): 11      20634    c7215      +1
+[0] MPI startup(): 12      31331    c7222      +1
+[0] MPI startup(): 13      1356     c7249      +1
+[0] MPI startup(): 14      611      c7251      +1
+[0] MPI startup(): 15      2416     c7256      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+	#bytes	#repetitions	t_min[usec]		t_max[usec]		t[usec]		MBytes/sec
+	0	1000	0.02688169479370117188		0.02725422382354736328		0.02707540988922119141		0.00000000000000000000
+	1	1000	1.92806124687194802014		1.92856788635253906250		1.92843377590179421155		0.03090831820113588285
+	2	1000	1.81712210178375244141		1.81768834590911865234		1.81750953197479248047		0.06558936140558001282
+	4	1000	1.73476338386535644531		1.73531472682952880859		1.73506140708923339844		0.13741218502550714420
+	8	1000	1.70806050300598144531		1.70849263668060302734		1.70831382274627685547		0.27912737803441989293
+	16	1000	1.70074403285980224609		1.70119106769561767578		1.70099735260009765625		0.56065596748195389853
+	32	1000	2.67587602138519287109		2.67638266086578369141		2.67618894577026367188		0.71271075079623147364
+	64	1000	2.66069173812866210938		2.66118347644805908203		2.66100466251373291016		1.43355527307548014093
+	128	1000	2.76599824428558349609		2.76656448841094970703		2.76637077331542968750		2.75790743773162105867
+	256	1000	2.90092825889587402344		2.90144979953765869141		2.90131568908691406250		5.25926534637192855115
+	512	1000	3.03006172180175781250		3.03643941879272460938		3.03043425083160400391		10.07036470651869208837
+	1024	1000	3.34361195564270019531		3.34413349628448486328		3.34393978118896484375		18.25246871769277490216
+	2048	1000	4.02849912643432617188		4.02894616127014160156		4.02887165546417236328		30.29888339442178235572
+	4096	1000	4.74305450916290283203		4.74356114864349365234		4.74324822425842285156		51.47118882612765844442
+	8192	1000	6.16388022899627685547		6.16431236267089843750		6.16425275802612304688		79.21175025865653651636
+	16384	1000	7.91324675083160400391		7.91369378566741854542		7.91355967521667569287		123.40369442822978385266
+	32768	1000	12.12194561958312988281		12.12257146835327148438		12.12218403816223144531		161.11989339967990986224
+	65536	640	33.58847461640834808350		33.58905669301748275757		33.58887042850255966187		116.29596203048457425666
+	131072	320	69.97790187597274780273		69.97911259531974792480		69.97911259531974792480		111.64045541958623175560
+	262144	160	336.05787903070449829102		336.06328070163726806641		336.05974167585372924805		46.49470930996276507585
+	524288	80	1121.43829464912414550781		1121.44295126199722290039		1121.44220620393753051758		27.86590323346283781802
+	1048576	40	3113.58571052551269531250		3113.60470950603485107422		3113.60284686088562011719		20.07320877902334288478
+	2097152	20	6172.71885275840759277344		6172.75014519691467285156		6172.75014519691467285156		20.25029315292534448645
+	4194304	10	10825.71893930435180664062		10825.78748464584350585938		10825.78748464584350585938		23.09300827811128087319

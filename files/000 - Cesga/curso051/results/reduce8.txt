@@ -1,0 +1,52 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=94eaf0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=16a2af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=af9af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1044af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1381af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1a03af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=17f3af0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=21ccaf0
+[0] MPI startup(): Multi-threaded optimized library
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[0] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       4498     c7001      +1
+[0] MPI startup(): 1       4499     c7001      +1
+[0] MPI startup(): 2       4500     c7001      +1
+[0] MPI startup(): 3       4501     c7001      +1
+[0] MPI startup(): 4       4502     c7001      +1
+[0] MPI startup(): 5       4503     c7001      +1
+[0] MPI startup(): 6       4504     c7001      +1
+[0] MPI startup(): 7       4505     c7001      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#bytes	#repetitions	t[μsec]
+0	1000	32.901764	
+1	1000	33.140182	
+2	1000	31.948090	
+4	1000	1495.838165	
+8	1000	1459.121704	
+16	1000	1482.009888	
+32	1000	1495.122910	
+64	1000	1564.025879	
+128	1000	1736.164093	
+256	1000	1720.905304	
+512	1000	2127.885818	
+1024	1000	2422.094345	
+2048	1000	3165.006638	
+4096	1000	6613.016129	
+8192	1000	7132.053375	
+16384	1000	10193.109512	
+32768	1000	16933.917999	
+65536	640	24314.880371	
+131072	320	20377.874374	
+262144	160	19037.008286	
+524288	80	17822.027206	
+1048576	40	17718.076706	
+2097152	20	21770.954132	
+4194304	10	34237.146378	

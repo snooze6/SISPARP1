@@ -1,0 +1,4 @@
+srun: error: c6902: task 0: Segmentation fault
+srun: Terminating job step 249804.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: c6903: task 1: Killed

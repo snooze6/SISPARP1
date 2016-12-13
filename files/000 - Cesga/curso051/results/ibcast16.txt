@@ -1,0 +1,215 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=22a7ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=f30ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=bb4ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1008ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2160ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c56ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=a33ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=14baab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2230ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c9eab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c23ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=728ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=8c5ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1dafab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2566ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=9e7ab0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[5] MPI startup(): shm data transfer mode
+[10] MPI startup(): shm data transfer mode
+[12] MPI startup(): shm data transfer mode
+[13] MPI startup(): shm data transfer mode
+[15] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[4] MPI startup(): shm data transfer mode
+[6] MPI startup(): shm data transfer mode
+[7] MPI startup(): shm data transfer mode
+[8] MPI startup(): shm data transfer mode
+[9] MPI startup(): shm data transfer mode
+[11] MPI startup(): shm data transfer mode
+[14] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       26113    c7127      +1
+[0] MPI startup(): 1       26114    c7127      +1
+[0] MPI startup(): 2       26115    c7127      +1
+[0] MPI startup(): 3       26116    c7127      +1
+[0] MPI startup(): 4       26117    c7127      +1
+[0] MPI startup(): 5       26118    c7127      +1
+[0] MPI startup(): 6       26119    c7127      +1
+[0] MPI startup(): 7       26120    c7127      +1
+[0] MPI startup(): 8       26121    c7127      +1
+[0] MPI startup(): 9       26122    c7127      +1
+[0] MPI startup(): 10      26123    c7127      +1
+[0] MPI startup(): 11      26124    c7127      +1
+[0] MPI startup(): 12      26125    c7127      +1
+[0] MPI startup(): 13      26126    c7127      +1
+[0] MPI startup(): 14      26127    c7127      +1
+[0] MPI startup(): 15      26128    c7127      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+#------------------------------------------------------------
+#    Intel (R) MPI Benchmarks 4.1 Update 1, MPI-1 part    
+#------------------------------------------------------------
+# Date                  : Mon Nov 14 11:24:27 2016
+# Machine               : x86_64
+# System                : Linux
+# Release               : 2.6.32-573.12.1.el6.x86_64
+# Version               : #1 SMP Mon Nov 23 12:55:32 EST 2015
+# MPI Version           : 3.0
+# MPI Thread Environment: 
+
+# New default behavior from Version 3.2 on:
+
+# the number of iterations per message size is cut down 
+# dynamically when a certain run time (per message size sample) 
+# is expected to be exceeded. Time limit is defined by variable 
+# "SECS_PER_SAMPLE" (=> IMB_settings.h) 
+# or through the flag => -time 
+  
+
+
+# Calling sequence was: 
+
+# /opt/cesga/intel/impi/5.1.3.223/bin64/IMB-MPI1 Bcast
+
+# Minimum message length in bytes:   0
+# Maximum message length in bytes:   4194304
+#
+# MPI_Datatype                   :   MPI_BYTE 
+# MPI_Datatype for reductions    :   MPI_FLOAT
+# MPI_Op                         :   MPI_SUM  
+#
+#
+
+# List of Benchmarks to run:
+
+# Bcast
+
+#----------------------------------------------------------------
+# Benchmarking Bcast 
+# #processes = 2 
+# ( 14 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.06
+            1         1000         0.51         0.51         0.51
+            2         1000         0.48         0.49         0.48
+            4         1000         0.48         0.48         0.48
+            8         1000         0.48         0.49         0.48
+           16         1000         0.74         0.75         0.74
+           32         1000         0.48         0.49         0.49
+           64         1000         0.50         0.51         0.50
+          128         1000         0.52         0.53         0.53
+          256         1000         0.55         0.55         0.55
+          512         1000         0.62         0.64         0.63
+         1024         1000         0.69         0.70         0.70
+         2048         1000         0.85         0.86         0.86
+         4096         1000         1.24         1.24         1.24
+         8192         1000         2.02         2.03         2.02
+        16384         1000         3.38         3.38         3.38
+        32768         1000         5.89         5.89         5.89
+        65536          640         5.78         5.79         5.79
+       131072          320        10.91        10.91        10.91
+       262144          160        23.66        23.68        23.67
+       524288           80        47.19        47.19        47.19
+      1048576           40        91.70        91.80        91.75
+      2097152           20       178.80       178.80       178.80
+      4194304           10       361.70       361.80       361.75
+
+#----------------------------------------------------------------
+# Benchmarking Bcast 
+# #processes = 4 
+# ( 12 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.07
+            1         1000         0.71         0.72         0.72
+            2         1000         0.70         0.71         0.71
+            4         1000         0.70         0.71         0.71
+            8         1000         0.71         0.72         0.71
+           16         1000         0.70         0.73         0.71
+           32         1000         0.70         0.72         0.71
+           64         1000         0.73         0.75         0.74
+          128         1000         0.78         0.78         0.78
+          256         1000         0.81         0.84         0.83
+          512         1000         0.90         0.92         0.91
+         1024         1000         1.02         1.04         1.03
+         2048         1000         1.27         1.30         1.29
+         4096         1000         1.88         1.90         1.89
+         8192         1000         2.98         3.01         3.00
+        16384         1000         4.75         4.77         4.76
+        32768         1000         8.51         8.53         8.52
+        65536          640        16.29        16.31        16.30
+       131072          320        31.08        31.12        31.10
+       262144          160        58.53        58.56        58.54
+       524288           80       112.77       112.88       112.82
+      1048576           40       220.29       220.67       220.47
+      2097152           20       433.54       434.79       434.15
+      4194304           10      1098.23      1104.90      1101.54
+
+#----------------------------------------------------------------
+# Benchmarking Bcast 
+# #processes = 8 
+# ( 8 additional processes waiting in MPI_Barrier)
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.06
+            1         1000         0.92         0.94         0.93
+            2         1000         0.85         0.86         0.86
+            4         1000         0.81         0.83         0.82
+            8         1000         0.83         0.86         0.84
+           16         1000         0.83         0.86         0.84
+           32         1000         0.85         0.87         0.87
+           64         1000         0.97         0.98         0.97
+          128         1000         0.97         0.99         0.98
+          256         1000         1.02         1.03         1.03
+          512         1000         1.18         1.21         1.19
+         1024         1000         1.39         1.47         1.43
+         2048         1000         1.69         1.76         1.74
+         4096         1000         2.53         2.55         2.54
+         8192         1000         3.95         3.97         3.96
+        16384         1000         7.13         7.15         7.14
+        32768         1000        10.27        10.31        10.29
+        65536          640        17.48        17.55        17.52
+       131072          320        32.48        32.61        32.57
+       262144          160        65.41        65.85        65.72
+       524288           80       126.87       128.10       127.85
+      1048576           40       252.83       256.66       255.94
+      2097152           20       552.55       566.95       564.41
+      4194304           10      1376.30      1440.91      1429.92
+
+#----------------------------------------------------------------
+# Benchmarking Bcast 
+# #processes = 16 
+#----------------------------------------------------------------
+       #bytes #repetitions  t_min[usec]  t_max[usec]  t_avg[usec]
+            0         1000         0.06         0.07         0.06
+            1         1000         1.21         1.23         1.22
+            2         1000         1.09         1.11         1.10
+            4         1000         1.09         1.11         1.10
+            8         1000         1.08         1.10         1.09
+           16         1000         1.07         1.10         1.09
+           32         1000         1.03         1.11         1.09
+           64         1000         1.08         1.20         1.17
+          128         1000         1.17         1.26         1.24
+          256         1000         1.17         1.25         1.23
+          512         1000         1.38         1.52         1.48
+         1024         1000         2.01         2.22         2.16
+         2048         1000         2.07         2.25         2.20
+         4096         1000         3.10         3.30         3.24
+         8192         1000         5.14         5.26         5.22
+        16384         1000         9.45         9.53         9.49
+        32768         1000        14.65        14.76        14.71
+        65536          640        26.13        26.23        26.19
+       131072          320        49.58        49.81        49.71
+       262144          160       100.69       101.34       101.00
+       524288           80       197.46       199.37       198.37
+      1048576           40       368.73       401.65       394.54
+      2097152           20       881.04       973.89       937.58
+      4194304           10      2237.53      2393.63      2377.18
+
+
+# All processes entering MPI_Finalize
+

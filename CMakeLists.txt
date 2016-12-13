@@ -6,8 +6,11 @@ find_package(MPI REQUIRED)
 # Recursive add folders
 file(GLOB ENDF6_SRC_TOP src/*.c)
 file(GLOB_RECURSE ENDF6_SRC_NESTED
+        src/Benchmarks/all_benchmarks.h
         src/Benchmarks/*.c
-        src/Benchmarks/*.h)
+        src/Benchmarks/*.h
+        src/Benchmarks/common/*.h
+        src/Benchmarks/common/*.c)
 set(ENDF6_SRC ${ENDF6_SRC_TOP} ${ENDF6_SRC_NESTED})
 
 add_executable(MPI ${ENDF6_SRC})
