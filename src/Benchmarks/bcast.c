@@ -47,7 +47,7 @@ void main_bcast(int argc, char *argv[]) {
 
         // Only first thread print results
         if (!rank) {
-            printf("Tiempo: %11f \t Bytes:%8d \t Mensajes:%8d \t\n", ((avg/size) * 1000000), j, n_sample);
+            printf("Tiempo: %11f \t Bytes:%8d \t Mensajes:%8d \t BW:%13f \t TiempoMax: %11f \t TiempoMin: %11f \t\n",((avg/size)*1000000),j,n_sample,((2*j)/time_end/1024/1024), ((max/size)*1000000), ((min/size)*1000000));
         }
 
         // Update J

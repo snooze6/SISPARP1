@@ -6,6 +6,5 @@
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
-#include "common/IBM_Settings.h"
 
 #endif
