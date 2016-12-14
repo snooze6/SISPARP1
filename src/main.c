@@ -46,6 +46,61 @@ int main(int argc, char **argv) {
         if (!rank) printf("-- SendRecv\n");
         MPI_Barrier(MPI_COMM_WORLD);
         main_sendrecv(argc, argv);
+    } else if (strcmp(mian, "everything") == 0){
+        if (!rank) printf("-- Everything\n");
+        {
+            if (!rank) printf("\n-- PingPong\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_pingpong(argc, argv);
+
+            if (!rank) printf("\n-- SendRecv\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_sendrecv(argc, argv);
+
+            if (!rank) printf("\n-- Broadcast\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_bcast(argc, argv);
+
+            if (!rank) printf("\n-- Scatter\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_scatter(argc,argv);
+
+            if (!rank) printf("\n-- Gather\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_gather(argc,argv);
+
+            if (!rank) printf("\n-- Reduce\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_reduce(argc, argv);
+
+            if (!rank) printf("\n-- AlltoAll\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_alltoall(argc, argv);
+
+            if (!rank) printf("\n-- Barrier\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_barrier(argc, argv);
+
+            if (!rank) printf("\n-- Normalization time\n");
+            // Time start and end
+            double time_start = 0,
+                    time_end = 0,
+                    *j = (double *) malloc (1000* sizeof(double)),
+                    *k = (double *) malloc (1000* sizeof(double)),
+                    *l = (double *) malloc (1000* sizeof(double));
+
+            time_start=MPI_Wtime();
+            for (int i=0; i<1000; i++){
+                j[i] = ((double)rand()/(double)RAND_MAX);
+                k[i] = ((double)rand()/(double)RAND_MAX);
+            }
+            for (int i=0; i<1000; i++){
+                l[i] = j[i] * k[i];
+            }
+            time_end=(MPI_Wtime()-time_start);
+            printf("Tiempo de normalización: %11f\n",(time_end*1000000));
+
+        }
     } else {
         if (!rank) printf("Hello werld!! -> (Bad arguments)\n");
     }

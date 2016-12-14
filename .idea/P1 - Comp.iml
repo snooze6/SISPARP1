@@ -19,7 +19,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Benchmarks/all_benchmarks.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Benchmarks/sendrecv.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Benchmarks/pingpong.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Benchmarks/common/IBM_Settings.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Benchmarks/pingpong.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />

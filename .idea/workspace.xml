@@ -12,18 +12,12 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19c542e-1a6e-4786-8316-d851524c1a43" name="Default" comment="sp">
+    <list default="true" id="c19c542e-1a6e-4786-8316-d851524c1a43" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Debug/MPI.exe" afterPath="$PROJECT_DIR$/build/Debug/MPI.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/000 - Cesga/curso055/MPI-Benchmarks" afterPath="$PROJECT_DIR$/files/000 - Cesga/curso055/MPI-Benchmarks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/P1 - Comp.iml" afterPath="$PROJECT_DIR$/.idea/P1 - Comp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/alltoall.c" afterPath="$PROJECT_DIR$/src/Benchmarks/alltoall.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/barrier.c" afterPath="$PROJECT_DIR$/src/Benchmarks/barrier.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/bcast.c" afterPath="$PROJECT_DIR$/src/Benchmarks/bcast.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/common.h" afterPath="$PROJECT_DIR$/src/Benchmarks/common.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/gather.c" afterPath="$PROJECT_DIR$/src/Benchmarks/gather.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/reduce.c" afterPath="$PROJECT_DIR$/src/Benchmarks/reduce.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/scatter.c" afterPath="$PROJECT_DIR$/src/Benchmarks/scatter.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Benchmarks/sendrecv.c" afterPath="$PROJECT_DIR$/src/Benchmarks/sendrecv.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.c" afterPath="$PROJECT_DIR$/src/main.c" />
     </list>
     <ignored path="P1 - Comp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +36,7 @@
     <favorites_list name="P1 - Comp" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file leaf-file-name="common.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/common.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="815">
+              <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -68,8 +62,8 @@
       <file leaf-file-name="pingpong.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/pingpong.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            <state relative-caret-position="1122">
+              <caret line="55" column="26" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,7 +72,7 @@
       <file leaf-file-name="sendrecv.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/sendrecv.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="1683">
               <caret line="51" column="131" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
@@ -88,18 +82,18 @@
       <file leaf-file-name="bcast.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/bcast.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
+            <state relative-caret-position="1650">
               <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scatter.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scatter.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/scatter.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="853">
-              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+            <state relative-caret-position="-566">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -108,7 +102,7 @@
       <file leaf-file-name="alltoall.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/alltoall.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="1650">
               <caret line="50" column="43" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
@@ -118,7 +112,7 @@
       <file leaf-file-name="gather.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/gather.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="1683">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
@@ -128,7 +122,7 @@
       <file leaf-file-name="reduce.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/reduce.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="1683">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
@@ -138,7 +132,7 @@
       <file leaf-file-name="barrier.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Benchmarks/barrier.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="1683">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
@@ -174,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/Benchmarks/pingpong.h" />
         <option value="$PROJECT_DIR$/src/Benchmarks/bcast.h" />
         <option value="$PROJECT_DIR$/src/Benchmarks/pingpong.c" />
-        <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/src/Benchmarks/scatter.h" />
         <option value="$PROJECT_DIR$/src/Benchmarks/all_benchmarks.h" />
         <option value="$PROJECT_DIR$/src/Benchmarks/common.h" />
@@ -185,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/Benchmarks/barrier.c" />
         <option value="$PROJECT_DIR$/src/Benchmarks/bcast.c" />
         <option value="$PROJECT_DIR$/src/Benchmarks/scatter.c" />
+        <option value="$PROJECT_DIR$/src/main.c" />
       </list>
     </option>
   </component>
@@ -316,7 +310,7 @@
       <recent name="C:\Users\arman\workspace\c\P1 - Comp\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Barrier">
+  <component name="RunManager" selected="Application.Everything">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="C:\WINDOWS\system32\bash.exe" />
@@ -545,7 +539,11 @@
       <envs />
       <method />
     </configuration>
-    <list size="9">
+    <configuration default="false" name="Everything" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 2 build/Debug/MPI.exe barrier" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="C:\tools\cygwin64\bin\mpirun" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.PingPong" />
       <item index="2" class="java.lang.String" itemvalue="Application.SendRecv" />
@@ -555,6 +553,7 @@
       <item index="6" class="java.lang.String" itemvalue="Application.Gather" />
       <item index="7" class="java.lang.String" itemvalue="Application.Reduce" />
       <item index="8" class="java.lang.String" itemvalue="Application.Barrier" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Everything" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -589,7 +588,8 @@
       <workItem from="1479720520050" duration="1165000" />
       <workItem from="1481560382842" duration="1172000" />
       <workItem from="1481585215552" duration="954000" />
-      <workItem from="1481621021446" duration="23820000" />
+      <workItem from="1481621021446" duration="24597000" />
+      <workItem from="1481743212301" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="sp">
       <created>1476691626995</created>
@@ -612,36 +612,43 @@
       <option name="project" value="LOCAL" />
       <updated>1477241013793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sp">
+      <created>1481670887644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481670887644</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58557000" />
+    <option name="totallyTimeSpent" value="61002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2736" height="1824" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20619336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19297583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.4218278" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.42069486" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1768546" sideWeight="0.49848944" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31038576" sideWeight="0.64086103" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1768546" sideWeight="0.50151056" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20619336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18995468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1768546" sideWeight="0.4954683" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31038576" sideWeight="0.6389728" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1768546" sideWeight="0.50453174" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -669,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="200" column="60" selection-start-line="200" selection-start-column="60" selection-end-line="200" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,9 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <marker date="1481658623155" expanded="true" signature="70:248" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,31 +886,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Benchmarks/common/IBM_Settings.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4319">
-          <caret line="149" column="18" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Benchmarks/common/IBM_Settings.h" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,17 +907,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Benchmarks/pingpong.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Benchmarks/gather.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="1683">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -954,7 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Benchmarks/reduce.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="1683">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -962,7 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Benchmarks/barrier.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
+        <state relative-caret-position="1683">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -970,7 +933,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Benchmarks/sendrecv.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="1683">
           <caret line="51" column="131" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
@@ -978,7 +941,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Benchmarks/alltoall.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="1650">
           <caret line="50" column="43" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -986,7 +949,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Benchmarks/bcast.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="1650">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
@@ -994,14 +957,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Benchmarks/scatter.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+        <state relative-caret-position="-566">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Benchmarks/pingpong.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAwEyIRJFTW7gepdIjGFOkWu5J3FbpcG8rYkpcKRe8ZvL6GTmxi14oV2LJpN4PTTBjunrzBx+STeFfBzYhZGyAIoy0EtwpDDGfcfIXWzTJ7xc5cAahSlr1zMvbWxVKQS2wCgcPeeI6joaAwuOD6gcpWc6Zlt79YhAAm5kXfOdxkbnc7s+CqMlrrmXg327hqKmBOePAYt7SfLyxq9c2cpJMh1VyQn7G+iz8Kij3mOIJKLa3IgAd+5nB/h2u853jIw4vfHYSJZYMqtkJcJYdGts++nk=</data>
+    <data>AAAAwIzcvdOSgdplLQ52JPQYEHTxNC3VTwDKtzxtbPv0FIE3XWiR0rwBdwTpQaoivA3Cc/YeiEN50bs49wnLqE/a25NuUIxjaK9Fz2zNt1aF00jlUl4TM2uxXURsCnrp5xs+rmMBRWaKjcToG+onWDLtb0EHuquSeguzPviKsubcIDAv4RVaMTCuJS9rM+wsxp5tNZ7YmrknL9Y0IgP9d/G3reVJ5Nhv7qHTmi6QeWveSpNHYqXERcB+VorFTq5IT+Vff4RIDOnLe8lxb0fA57s1sy4=</data>
   </component>
 </project>
