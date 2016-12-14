@@ -21,8 +21,6 @@ void main_barrier(int argc, char** argv){
             }
         }
 
-        char *msg1 = (char *) malloc(sizeof(char) * j), *msg2 = (char *) malloc(sizeof(char) * j);
-
         for (k = 0; k < 2; k++) {
             // Start everything at the same time
             MPI_Barrier(MPI_COMM_WORLD);
@@ -42,9 +40,6 @@ void main_barrier(int argc, char** argv){
             MPI_Reduce(&time_end, &min, 1, MPI_DOUBLE, MPI_MIN, 0, MPI_COMM_WORLD);
             MPI_Reduce(&time_end, &max, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
         }
-
-        free(msg1);
-        free(msg2);
 
         // Only first thread print results
         if (!rank) {

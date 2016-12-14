@@ -1,11 +1,6 @@
 #include "Benchmarks/all_benchmarks.h"
 
 int main(int argc, char **argv) {
-
-
-//    for (int i = 1; i < argc; i++) {
-//        printf("argv[%u] = %s\n", i, argv[i]);
-//    }
     char *mian = argv[1];
 
     MPI_Init(NULL, NULL);
@@ -88,13 +83,14 @@ int main(int argc, char **argv) {
                     *j = (double *) malloc (1000* sizeof(double)),
                     *k = (double *) malloc (1000* sizeof(double)),
                     *l = (double *) malloc (1000* sizeof(double));
+            int i;
 
-            time_start=MPI_Wtime();
-            for (int i=0; i<1000; i++){
+            for (i=0; i<1000; i++){
                 j[i] = ((double)rand()/(double)RAND_MAX);
                 k[i] = ((double)rand()/(double)RAND_MAX);
             }
-            for (int i=0; i<1000; i++){
+            time_start=MPI_Wtime();
+            for (i=0; i<1000; i++){
                 l[i] = j[i] * k[i];
             }
             time_end=(MPI_Wtime()-time_start);
