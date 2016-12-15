@@ -1,7 +1,18 @@
-Sistemas Paralelos (G4011443)
+# Sistemas Paralelos (G4011443)
 
-Guía para estimar el coste de la comunicación en
-programas paralelos MPI orientada a programadores
+## Ejecución
+
+```bash
+module load intel impi
+sh run.sh
+# See run.sh for more details
+squeue -u $USER
+```
+
+## Enunciado
+
+Guía para estimar el coste de la comunicación en programas paralelos MPI orientada a programadores
+
 En esta práctica vamos a elaborar una guía sobre el coste de comunicaciones en programas paralelos MPI en
 un sistema de computación de altas prestaciones. Será necesario programar y ejecutar una serie de
 benchmarks para obtener datos que soporten el informe. Para llevar a cabo esta tarea tomaremos como
@@ -33,18 +44,3 @@ como un apéndice en el propio documento.
 Criterios de evaluación: número de benchmarks evaluados, aplicación técnica de la metodología presentada
 en el documento de referencia de Intel, calidad en la presentación de la guía, en el sentido de que debe ser
 realmente útil para los programadores de MPI. 
-
-Pag 64
-Pag 67 -> Número de ejecuciones
-
-```bash
-module load intel impi
-cd P1/src
-make clean && make all && srun -p thinnodes -N 2 -t 00:00:10 pingpong -n 4 -iter 8
-
-squeue -u $USER
-```
-
-srun -p thinnodes -N 2 -t 00:00:10 main
-
-srun -p thinnodes -N 2 -t 00:00:10 pingpong

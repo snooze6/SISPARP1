@@ -10,9 +10,12 @@ int main(int argc, char **argv) {
     if (!rank) printf("STARTING THE THING...\n");
 
     if (strcmp(mian, "pingpong") == 0){
-        if (!rank) printf("-- PingPong\n");
-        MPI_Barrier(MPI_COMM_WORLD);
-        main_pingpong(argc, argv);
+        int size = -1; MPI_Comm_size (MPI_COMM_WORLD, &size);
+        if (size == 2) {
+            if (!rank) printf("\n-- PingPong\n");
+            MPI_Barrier(MPI_COMM_WORLD);
+            main_pingpong(argc, argv);
+        }
     } else if (strcmp(mian, "alltoall") == 0){
         if (!rank) printf("-- AlltoAll\n");
         MPI_Barrier(MPI_COMM_WORLD);
@@ -44,9 +47,12 @@ int main(int argc, char **argv) {
     } else if (strcmp(mian, "everything") == 0){
         if (!rank) printf("-- Everything\n");
         {
-            if (!rank) printf("\n-- PingPong\n");
-            MPI_Barrier(MPI_COMM_WORLD);
-            main_pingpong(argc, argv);
+            int size = -1; MPI_Comm_size (MPI_COMM_WORLD, &size);
+            if (size == 2) {
+                if (!rank) printf("\n-- PingPong\n");
+                MPI_Barrier(MPI_COMM_WORLD);
+                main_pingpong(argc, argv);
+            }
 
             if (!rank) printf("\n-- SendRecv\n");
             MPI_Barrier(MPI_COMM_WORLD);
