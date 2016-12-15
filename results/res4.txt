@@ -1,0 +1,205 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=133dab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=dc6ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2154ab0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=2281ab0
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[3] MPI startup(): shm data transfer mode
+[1] MPI startup(): shm data transfer mode
+[2] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       3760     c7207      +1
+[0] MPI startup(): 1       3761     c7207      +1
+[0] MPI startup(): 2       3762     c7207      +1
+[0] MPI startup(): 3       3763     c7207      +1
+[0] MPI startup(): I_MPI_DEBUG=5
+STARTING THE THING...
+-- Everything
+
+-- SendRecv
+Tiempo:    0.720978 	 Bytes:       0 	 Mensajes:    1000 	 BW:     0.000000 	 TiempoMax:    0.180483 	 TiempoMin:    0.179768 	
+Tiempo:    0.721872 	 Bytes:       1 	 Mensajes:    1000 	 BW:     2.645503 	 TiempoMax:    0.180542 	 TiempoMin:    0.180244 	
+Tiempo:    0.648022 	 Bytes:       2 	 Mensajes:    1000 	 BW:     5.886681 	 TiempoMax:    0.162005 	 TiempoMin:    0.162005 	
+Tiempo:    0.696898 	 Bytes:       4 	 Mensajes:    1000 	 BW:    10.958904 	 TiempoMax:    0.174284 	 TiempoMin:    0.174046 	
+Tiempo:    0.621498 	 Bytes:       8 	 Mensajes:    1000 	 BW:    24.568138 	 TiempoMax:    0.155509 	 TiempoMin:    0.155210 	
+Tiempo:    0.640631 	 Bytes:      16 	 Mensajes:    1000 	 BW:    47.690015 	 TiempoMax:    0.160217 	 TiempoMin:    0.159979 	
+Tiempo:    0.657797 	 Bytes:      32 	 Mensajes:    1000 	 BW:    92.888244 	 TiempoMax:    0.164509 	 TiempoMin:    0.164270 	
+Tiempo:    0.701189 	 Bytes:      64 	 Mensajes:    1000 	 BW:   174.386921 	 TiempoMax:    0.175476 	 TiempoMin:    0.174999 	
+Tiempo:    0.691652 	 Bytes:     128 	 Mensajes:    1000 	 BW:   352.860096 	 TiempoMax:    0.172973 	 TiempoMin:    0.172734 	
+Tiempo:    0.731945 	 Bytes:     256 	 Mensajes:    1000 	 BW:   667.100977 	 TiempoMax:    0.182986 	 TiempoMin:    0.182986 	
+Tiempo:    0.864983 	 Bytes:     512 	 Mensajes:    1000 	 BW:  1130.242826 	 TiempoMax:    0.216484 	 TiempoMin:    0.216007 	
+Tiempo:    1.003981 	 Bytes:    1024 	 Mensajes:    1000 	 BW:  1945.381145 	 TiempoMax:    0.250995 	 TiempoMin:    0.250995 	
+Tiempo:    1.106501 	 Bytes:    2048 	 Mensajes:    1000 	 BW:  3528.752961 	 TiempoMax:    0.276744 	 TiempoMin:    0.276506 	
+Tiempo:    1.674414 	 Bytes:    4096 	 Mensajes:    1000 	 BW:  4669.801910 	 TiempoMax:    0.418961 	 TiempoMin:    0.418246 	
+Tiempo:    2.461910 	 Bytes:    8192 	 Mensajes:    1000 	 BW:  6346.697656 	 TiempoMax:    0.615478 	 TiempoMin:    0.615478 	
+Tiempo:    4.198551 	 Bytes:   16384 	 Mensajes:    1000 	 BW:  7443.889141 	 TiempoMax:    1.049757 	 TiempoMin:    1.049519 	
+Tiempo:    7.191539 	 Bytes:   32768 	 Mensajes:    1000 	 BW:  8691.489009 	 TiempoMax:    1.798034 	 TiempoMin:    1.797736 	
+Tiempo:   13.428833 	 Bytes:   65536 	 Mensajes:     640 	 BW:  9310.072418 	 TiempoMax:    3.357418 	 TiempoMin:    3.356580 	
+Tiempo:   20.909309 	 Bytes:  131072 	 Mensajes:     320 	 BW: 11956.396807 	 TiempoMax:    5.227327 	 TiempoMin:    5.227327 	
+Tiempo:   43.675303 	 Bytes:  262144 	 Mensajes:     160 	 BW: 11448.117366 	 TiempoMax:   10.918826 	 TiempoMin:   10.918826 	
+Tiempo:   90.038776 	 Bytes:  524288 	 Mensajes:      80 	 BW: 11106.325963 	 TiempoMax:   22.509694 	 TiempoMin:   22.509694 	
+Tiempo:  149.613619 	 Bytes: 1048576 	 Mensajes:      40 	 BW: 13366.701988 	 TiempoMax:   37.406385 	 TiempoMin:   37.400424 	
+Tiempo:  354.158878 	 Bytes: 2097152 	 Mensajes:      20 	 BW: 11294.746196 	 TiempoMax:   88.548660 	 TiempoMin:   88.536739 	
+Tiempo:  677.895546 	 Bytes: 4194304 	 Mensajes:      10 	 BW: 11801.228150 	 TiempoMax:  169.473886 	 TiempoMin:  169.473886 	
+
+-- Broadcast
+Tiempo:    0.029564 	 Bytes:       0 	 Mensajes:    1000 	 BW:     0.000000 	 TiempoMax:    0.007510 	 TiempoMin:    0.007272 	
+Tiempo:    0.576735 	 Bytes:       1 	 Mensajes:    1000 	 BW:     3.305785 	 TiempoMax:    0.144243 	 TiempoMin:    0.144005 	
+Tiempo:    0.604630 	 Bytes:       2 	 Mensajes:    1000 	 BW:     6.314128 	 TiempoMax:    0.151277 	 TiempoMin:    0.151038 	
+Tiempo:    0.587940 	 Bytes:       4 	 Mensajes:    1000 	 BW:    12.976480 	 TiempoMax:    0.146985 	 TiempoMin:    0.146985 	
+Tiempo:    0.571966 	 Bytes:       8 	 Mensajes:    1000 	 BW:    26.677782 	 TiempoMax:    0.142992 	 TiempoMin:    0.142992 	
+Tiempo:    0.589132 	 Bytes:      16 	 Mensajes:    1000 	 BW:    51.800890 	 TiempoMax:    0.147283 	 TiempoMin:    0.147283 	
+Tiempo:    0.600100 	 Bytes:      32 	 Mensajes:    1000 	 BW:   101.708383 	 TiempoMax:    0.150025 	 TiempoMin:    0.150025 	
+Tiempo:    0.616074 	 Bytes:      64 	 Mensajes:    1000 	 BW:   198.142415 	 TiempoMax:    0.154018 	 TiempoMin:    0.154018 	
+Tiempo:    0.643969 	 Bytes:     128 	 Mensajes:    1000 	 BW:   379.118845 	 TiempoMax:    0.160992 	 TiempoMin:    0.160992 	
+Tiempo:    0.705004 	 Bytes:     256 	 Mensajes:    1000 	 BW:   692.593845 	 TiempoMax:    0.176251 	 TiempoMin:    0.176251 	
+Tiempo:    0.793576 	 Bytes:     512 	 Mensajes:    1000 	 BW:  1231.509321 	 TiempoMax:    0.198543 	 TiempoMin:    0.198245 	
+Tiempo:    0.908852 	 Bytes:    1024 	 Mensajes:    1000 	 BW:  2149.003148 	 TiempoMax:    0.227213 	 TiempoMin:    0.227213 	
+Tiempo:    1.134157 	 Bytes:    2048 	 Mensajes:    1000 	 BW:  3444.911690 	 TiempoMax:    0.283718 	 TiempoMin:    0.283480 	
+Tiempo:    1.672983 	 Bytes:    4096 	 Mensajes:    1000 	 BW:  4669.801910 	 TiempoMax:    0.418246 	 TiempoMin:    0.418246 	
+Tiempo:    2.656937 	 Bytes:    8192 	 Mensajes:    1000 	 BW:  5880.832735 	 TiempoMax:    0.664234 	 TiempoMin:    0.664234 	
+Tiempo:    4.546404 	 Bytes:   16384 	 Mensajes:    1000 	 BW:  6872.843585 	 TiempoMax:    1.136720 	 TiempoMin:    1.136482 	
+Tiempo:    7.294178 	 Bytes:   32768 	 Mensajes:    1000 	 BW:  8568.477479 	 TiempoMax:    1.823545 	 TiempoMin:    1.823545 	
+Tiempo:   13.285875 	 Bytes:   65536 	 Mensajes:     640 	 BW:  9408.488111 	 TiempoMax:    3.321469 	 TiempoMin:    3.321469 	
+Tiempo:   28.003938 	 Bytes:  131072 	 Mensajes:     320 	 BW:  8927.612611 	 TiempoMax:    7.001683 	 TiempoMin:    7.000752 	
+Tiempo:   59.836730 	 Bytes:  262144 	 Mensajes:     160 	 BW:  8355.811440 	 TiempoMax:   14.959648 	 TiempoMin:   14.957786 	
+Tiempo:  117.427111 	 Bytes:  524288 	 Mensajes:      80 	 BW:  8515.921019 	 TiempoMax:   29.356778 	 TiempoMin:   29.356778 	
+Tiempo:  237.399340 	 Bytes: 1048576 	 Mensajes:      40 	 BW:  8424.623264 	 TiempoMax:   59.349835 	 TiempoMin:   59.349835 	
+Tiempo:  494.253635 	 Bytes: 2097152 	 Mensajes:      20 	 BW:  8093.010781 	 TiempoMax:  123.563409 	 TiempoMin:  123.563409 	
+Tiempo:  991.392136 	 Bytes: 4194304 	 Mensajes:      10 	 BW:  8069.266768 	 TiempoMax:  247.853994 	 TiempoMin:  247.830153 	
+
+-- Scatter
+Tiempo:    0.038624 	 Bytes:       0 	 Mensajes:    1000 	 BW:     0.000000 	 TiempoMax:    0.009775 	 TiempoMin:    0.009537 	
+Tiempo:    0.422001 	 Bytes:       1 	 Mensajes:    1000 	 BW:     4.519774 	 TiempoMax:    0.105500 	 TiempoMin:    0.105500 	
+Tiempo:    0.418901 	 Bytes:       2 	 Mensajes:    1000 	 BW:     9.106431 	 TiempoMax:    0.104725 	 TiempoMin:    0.104725 	
+Tiempo:    0.419140 	 Bytes:       4 	 Mensajes:    1000 	 BW:    18.202503 	 TiempoMax:    0.104785 	 TiempoMin:    0.104785 	
+Tiempo:    0.418901 	 Bytes:       8 	 Mensajes:    1000 	 BW:    36.425726 	 TiempoMax:    0.104725 	 TiempoMin:    0.104725 	
+Tiempo:    0.432968 	 Bytes:      16 	 Mensajes:    1000 	 BW:    70.484581 	 TiempoMax:    0.108242 	 TiempoMin:    0.108242 	
+Tiempo:    0.434875 	 Bytes:      32 	 Mensajes:    1000 	 BW:   140.350877 	 TiempoMax:    0.108719 	 TiempoMin:    0.108719 	
+Tiempo:    0.476360 	 Bytes:      64 	 Mensajes:    1000 	 BW:   256.513026 	 TiempoMax:    0.119209 	 TiempoMin:    0.118971 	
+Tiempo:    0.492811 	 Bytes:     128 	 Mensajes:    1000 	 BW:   495.403967 	 TiempoMax:    0.123203 	 TiempoMin:    0.123203 	
+Tiempo:    0.516176 	 Bytes:     256 	 Mensajes:    1000 	 BW:   945.958430 	 TiempoMax:    0.129044 	 TiempoMin:    0.129044 	
+Tiempo:    0.610352 	 Bytes:     512 	 Mensajes:    1000 	 BW:  1600.625244 	 TiempoMax:    0.152767 	 TiempoMin:    0.152528 	
+Tiempo:    1.114368 	 Bytes:    1024 	 Mensajes:    1000 	 BW:  1753.049433 	 TiempoMax:    0.278771 	 TiempoMin:    0.278533 	
+Tiempo:    0.839949 	 Bytes:    2048 	 Mensajes:    1000 	 BW:  4650.581890 	 TiempoMax:    0.209987 	 TiempoMin:    0.209987 	
+Tiempo:    1.281738 	 Bytes:    4096 	 Mensajes:    1000 	 BW:  6094.104519 	 TiempoMax:    0.320494 	 TiempoMin:    0.320256 	
+Tiempo:    2.129078 	 Bytes:    8192 	 Mensajes:    1000 	 BW:  7338.857783 	 TiempoMax:    0.532269 	 TiempoMin:    0.532269 	
+Tiempo:    3.680944 	 Bytes:   16384 	 Mensajes:    1000 	 BW:  8489.669020 	 TiempoMax:    0.920236 	 TiempoMin:    0.920236 	
+Tiempo:    7.402182 	 Bytes:   32768 	 Mensajes:    1000 	 BW:  8443.456695 	 TiempoMax:    1.850545 	 TiempoMin:    1.850545 	
+Tiempo:   11.935830 	 Bytes:   65536 	 Mensajes:     640 	 BW: 10472.669164 	 TiempoMax:    2.983958 	 TiempoMin:    2.983958 	
+Tiempo:   27.509779 	 Bytes:  131072 	 Mensajes:     320 	 BW:  9087.677599 	 TiempoMax:    6.877445 	 TiempoMin:    6.877445 	
+Tiempo:   62.693655 	 Bytes:  262144 	 Mensajes:     160 	 BW:  7975.288665 	 TiempoMax:   15.673414 	 TiempoMin:   15.673414 	
+Tiempo:  111.639500 	 Bytes:  524288 	 Mensajes:      80 	 BW:  8957.403097 	 TiempoMax:   27.909875 	 TiempoMin:   27.909875 	
+Tiempo:  207.221508 	 Bytes: 1048576 	 Mensajes:      40 	 BW:  9651.507795 	 TiempoMax:   51.805377 	 TiempoMin:   51.805377 	
+Tiempo:  294.673443 	 Bytes: 2097152 	 Mensajes:      20 	 BW: 13573.250273 	 TiempoMax:   73.674321 	 TiempoMin:   73.662400 	
+Tiempo:  614.500046 	 Bytes: 4194304 	 Mensajes:      10 	 BW: 13018.713432 	 TiempoMax:  153.625011 	 TiempoMin:  153.625011 	
+
+-- Gather
+Tiempo:    0.037909 	 Bytes:       0 	 Mensajes:    1000 	 BW:     0.000000 	 TiempoMax:    0.009477 	 TiempoMin:    0.009477 	
+Tiempo:    0.371218 	 Bytes:       1 	 Mensajes:    1000 	 BW:     5.141388 	 TiempoMax:    0.092983 	 TiempoMin:    0.092745 	
+Tiempo:    0.362873 	 Bytes:       2 	 Mensajes:    1000 	 BW:    10.512484 	 TiempoMax:    0.090718 	 TiempoMin:    0.090718 	
+Tiempo:    0.365019 	 Bytes:       4 	 Mensajes:    1000 	 BW:    20.901372 	 TiempoMax:    0.091255 	 TiempoMin:    0.091255 	
+Tiempo:    0.360489 	 Bytes:       8 	 Mensajes:    1000 	 BW:    42.384106 	 TiempoMax:    0.090241 	 TiempoMin:    0.090003 	
+Tiempo:    0.380039 	 Bytes:      16 	 Mensajes:    1000 	 BW:    80.301129 	 TiempoMax:    0.095010 	 TiempoMin:    0.095010 	
+Tiempo:    0.358820 	 Bytes:      32 	 Mensajes:    1000 	 BW:   170.099668 	 TiempoMax:    0.089705 	 TiempoMin:    0.089705 	
+Tiempo:    0.381947 	 Bytes:      64 	 Mensajes:    1000 	 BW:   319.600499 	 TiempoMax:    0.095487 	 TiempoMin:    0.095487 	
+Tiempo:    0.395060 	 Bytes:     128 	 Mensajes:    1000 	 BW:   617.984309 	 TiempoMax:    0.098765 	 TiempoMin:    0.098765 	
+Tiempo:    0.413895 	 Bytes:     256 	 Mensajes:    1000 	 BW:  1179.723502 	 TiempoMax:    0.103474 	 TiempoMin:    0.103474 	
+Tiempo:    0.524759 	 Bytes:     512 	 Mensajes:    1000 	 BW:  1863.512284 	 TiempoMax:    0.131488 	 TiempoMin:    0.131011 	
+Tiempo:    2.359152 	 Bytes:    1024 	 Mensajes:    1000 	 BW:   827.892875 	 TiempoMax:    0.589788 	 TiempoMin:    0.589788 	
+Tiempo:    2.942801 	 Bytes:    2048 	 Mensajes:    1000 	 BW:  1327.284511 	 TiempoMax:    0.735760 	 TiempoMin:    0.735521 	
+Tiempo:    4.094720 	 Bytes:    4096 	 Mensajes:    1000 	 BW:  1907.889374 	 TiempoMax:    1.023769 	 TiempoMin:    1.023471 	
+Tiempo:    6.168127 	 Bytes:    8192 	 Mensajes:    1000 	 BW:  2533.183874 	 TiempoMax:    1.542032 	 TiempoMin:    1.542032 	
+Tiempo:   10.225058 	 Bytes:   16384 	 Mensajes:    1000 	 BW:  3056.217502 	 TiempoMax:    2.556264 	 TiempoMin:    2.556264 	
+Tiempo:   16.286612 	 Bytes:   32768 	 Mensajes:    1000 	 BW:  3837.451692 	 TiempoMax:    4.071712 	 TiempoMin:    4.071474 	
+Tiempo:   25.725458 	 Bytes:   65536 	 Mensajes:     640 	 BW:  4859.087973 	 TiempoMax:    6.431714 	 TiempoMin:    6.431248 	
+Tiempo:   46.421587 	 Bytes:  131072 	 Mensajes:     320 	 BW:  5385.425481 	 TiempoMax:   11.605397 	 TiempoMin:   11.605397 	
+Tiempo:   89.026988 	 Bytes:  262144 	 Mensajes:     160 	 BW:  5616.086498 	 TiempoMax:   22.257492 	 TiempoMin:   22.256002 	
+Tiempo:  171.139836 	 Bytes:  524288 	 Mensajes:      80 	 BW:  5843.174924 	 TiempoMax:   42.784959 	 TiempoMin:   42.784959 	
+Tiempo:  373.023748 	 Bytes: 1048576 	 Mensajes:      40 	 BW:  5361.588930 	 TiempoMax:   93.255937 	 TiempoMin:   93.255937 	
+Tiempo: 1272.273064 	 Bytes: 2097152 	 Mensajes:      20 	 BW:  3144.038080 	 TiempoMax:  318.074226 	 TiempoMin:  318.062305 	
+Tiempo: 2818.703651 	 Bytes: 4194304 	 Mensajes:      10 	 BW:  2838.088117 	 TiempoMax:  704.699755 	 TiempoMin:  704.652071 	
+
+-- Reduce
+Tiempo:    0.040770 	 Bytes:       0 	 Mensajes:    1000 	 BW:     0.000000 	 TiempoMax:    0.010252 	 TiempoMin:    0.010014 	
+Tiempo:    0.035048 	 Bytes:       1 	 Mensajes:    1000 	 BW:    54.421769 	 TiempoMax:    0.008762 	 TiempoMin:    0.008762 	
+Tiempo:    0.038147 	 Bytes:       2 	 Mensajes:    1000 	 BW:   100.000000 	 TiempoMax:    0.009537 	 TiempoMin:    0.009537 	
+Tiempo:    0.856161 	 Bytes:       4 	 Mensajes:    1000 	 BW:     8.911167 	 TiempoMax:    0.214040 	 TiempoMin:    0.214040 	
+Tiempo:    0.872135 	 Bytes:       8 	 Mensajes:    1000 	 BW:    17.495899 	 TiempoMax:    0.218034 	 TiempoMin:    0.218034 	
+Tiempo:    0.843048 	 Bytes:      16 	 Mensajes:    1000 	 BW:    36.199095 	 TiempoMax:    0.210762 	 TiempoMin:    0.210762 	
+Tiempo:    0.873744 	 Bytes:      32 	 Mensajes:    1000 	 BW:    69.830878 	 TiempoMax:    0.218511 	 TiempoMin:    0.218213 	
+Tiempo:    0.960112 	 Bytes:      64 	 Mensajes:    1000 	 BW:   127.141793 	 TiempoMax:    0.240028 	 TiempoMin:    0.240028 	
+Tiempo:    1.034021 	 Bytes:     128 	 Mensajes:    1000 	 BW:   236.107909 	 TiempoMax:    0.258505 	 TiempoMin:    0.258505 	
+Tiempo:    1.032114 	 Bytes:     256 	 Mensajes:    1000 	 BW:   473.088473 	 TiempoMax:    0.258029 	 TiempoMin:    0.258029 	
+Tiempo:    1.302719 	 Bytes:     512 	 Mensajes:    1000 	 BW:   749.496798 	 TiempoMax:    0.325739 	 TiempoMin:    0.325501 	
+Tiempo:    1.467943 	 Bytes:    1024 	 Mensajes:    1000 	 BW:  1330.518109 	 TiempoMax:    0.366986 	 TiempoMin:    0.366986 	
+Tiempo:    1.876354 	 Bytes:    2048 	 Mensajes:    1000 	 BW:  2082.358922 	 TiempoMax:    0.469208 	 TiempoMin:    0.468969 	
+Tiempo:    2.794981 	 Bytes:    4096 	 Mensajes:    1000 	 BW:  2795.188945 	 TiempoMax:    0.698745 	 TiempoMin:    0.698745 	
+Tiempo:    4.457712 	 Bytes:    8192 	 Mensajes:    1000 	 BW:  3504.973794 	 TiempoMax:    1.114488 	 TiempoMin:    1.114249 	
+Tiempo:    7.663012 	 Bytes:   16384 	 Mensajes:    1000 	 BW:  4078.031175 	 TiempoMax:    1.915753 	 TiempoMin:    1.915753 	
+Tiempo:   11.169434 	 Bytes:   32768 	 Mensajes:    1000 	 BW:  5595.867310 	 TiempoMax:    2.792478 	 TiempoMin:    2.792239 	
+Tiempo:   18.424913 	 Bytes:   65536 	 Mensajes:     640 	 BW:  6784.292444 	 TiempoMax:    4.606228 	 TiempoMin:    4.606228 	
+Tiempo:   33.721328 	 Bytes:  131072 	 Mensajes:     320 	 BW:  7413.541901 	 TiempoMax:    8.430518 	 TiempoMin:    8.429773 	
+Tiempo:   64.049661 	 Bytes:  262144 	 Mensajes:     160 	 BW:  7806.442547 	 TiempoMax:   16.012415 	 TiempoMin:   16.012415 	
+Tiempo:  124.213099 	 Bytes:  524288 	 Mensajes:      80 	 BW:  8050.680679 	 TiempoMax:   31.053275 	 TiempoMin:   31.053275 	
+Tiempo:  241.124630 	 Bytes: 1048576 	 Mensajes:      40 	 BW:  8294.465813 	 TiempoMax:   60.281157 	 TiempoMin:   60.281157 	
+Tiempo:  481.414795 	 Bytes: 2097152 	 Mensajes:      20 	 BW:  8309.048857 	 TiempoMax:  120.362639 	 TiempoMin:  120.350718 	
+Tiempo: 1130.104065 	 Bytes: 4194304 	 Mensajes:      10 	 BW:  7078.994093 	 TiempoMax:  282.526016 	 TiempoMin:  282.526016 	
+
+-- AlltoAll
+Tiempo:    0.036955 	 Bytes:       0 	 Mensajes:    1000 	 BW:     0.000000 	 TiempoMax:    0.009239 	 TiempoMin:    0.009239 	
+Tiempo:    1.244783 	 Bytes:       1 	 Mensajes:    1000 	 BW:     1.531980 	 TiempoMax:    0.311255 	 TiempoMin:    0.311017 	
+Tiempo:    1.286030 	 Bytes:       2 	 Mensajes:    1000 	 BW:     2.966259 	 TiempoMax:    0.321507 	 TiempoMin:    0.321507 	
+Tiempo:    1.246929 	 Bytes:       4 	 Mensajes:    1000 	 BW:     6.118547 	 TiempoMax:    0.311732 	 TiempoMin:    0.311732 	
+Tiempo:    1.262426 	 Bytes:       8 	 Mensajes:    1000 	 BW:    12.082311 	 TiempoMax:    0.315726 	 TiempoMin:    0.315487 	
+Tiempo:    1.244783 	 Bytes:      16 	 Mensajes:    1000 	 BW:    24.530471 	 TiempoMax:    0.311494 	 TiempoMin:    0.311017 	
+Tiempo:    1.276970 	 Bytes:      32 	 Mensajes:    1000 	 BW:    47.796863 	 TiempoMax:    0.319242 	 TiempoMin:    0.319242 	
+Tiempo:    1.367092 	 Bytes:      64 	 Mensajes:    1000 	 BW:    89.291943 	 TiempoMax:    0.341773 	 TiempoMin:    0.341773 	
+Tiempo:    1.425982 	 Bytes:     128 	 Mensajes:    1000 	 BW:   171.208828 	 TiempoMax:    0.356495 	 TiempoMin:    0.356495 	
+Tiempo:    1.464128 	 Bytes:     256 	 Mensajes:    1000 	 BW:   333.496173 	 TiempoMax:    0.366032 	 TiempoMin:    0.366032 	
+Tiempo:    2.001047 	 Bytes:     512 	 Mensajes:    1000 	 BW:   488.025736 	 TiempoMax:    0.500262 	 TiempoMin:    0.500262 	
+Tiempo:    2.180099 	 Bytes:    1024 	 Mensajes:    1000 	 BW:   895.888014 	 TiempoMax:    0.545025 	 TiempoMin:    0.545025 	
+Tiempo:    2.763033 	 Bytes:    2048 	 Mensajes:    1000 	 BW:  1413.754422 	 TiempoMax:    0.690758 	 TiempoMin:    0.690758 	
+Tiempo:    3.731966 	 Bytes:    4096 	 Mensajes:    1000 	 BW:  2093.400626 	 TiempoMax:    0.932992 	 TiempoMin:    0.932992 	
+Tiempo:    5.645990 	 Bytes:    8192 	 Mensajes:    1000 	 BW:  2767.450699 	 TiempoMax:    1.411498 	 TiempoMin:    1.411498 	
+Tiempo:   10.392904 	 Bytes:   16384 	 Mensajes:    1000 	 BW:  3006.859214 	 TiempoMax:    2.598226 	 TiempoMin:    2.598226 	
+Tiempo:   20.860195 	 Bytes:   32768 	 Mensajes:    1000 	 BW:  2996.171122 	 TiempoMax:    5.215228 	 TiempoMin:    5.214989 	
+Tiempo:   30.962378 	 Bytes:   65536 	 Mensajes:     640 	 BW:  4037.157639 	 TiempoMax:    7.740594 	 TiempoMin:    7.740594 	
+Tiempo:   59.109926 	 Bytes:  131072 	 Mensajes:     320 	 BW:  4229.461398 	 TiempoMax:   14.778040 	 TiempoMin:   14.777295 	
+Tiempo:  115.346909 	 Bytes:  262144 	 Mensajes:     160 	 BW:  4334.637902 	 TiempoMax:   28.837472 	 TiempoMin:   28.835982 	
+Tiempo:  216.099620 	 Bytes:  524288 	 Mensajes:      80 	 BW:  4627.495414 	 TiempoMax:   54.024905 	 TiempoMin:   54.024905 	
+Tiempo:  679.028034 	 Bytes: 1048576 	 Mensajes:      40 	 BW:  2945.386493 	 TiempoMax:  169.757009 	 TiempoMin:  169.757009 	
+Tiempo: 2044.320107 	 Bytes: 2097152 	 Mensajes:      20 	 BW:  1956.652147 	 TiempoMax:  511.088967 	 TiempoMin:  511.077046 	
+Tiempo: 3918.957710 	 Bytes: 4194304 	 Mensajes:      10 	 BW:  2041.346685 	 TiempoMax:  979.745388 	 TiempoMin:  979.721546 	
+
+-- Barrier
+Tiempo:    0.718117 	 Bytes:       0 	 Mensajes:    1000 	 BW:     0.000000 	 TiempoMax:    0.179529 	 TiempoMin:    0.179529 	
+Tiempo:    0.725985 	 Bytes:       1 	 Mensajes:    1000 	 BW:     2.627258 	 TiempoMax:    0.181496 	 TiempoMin:    0.181496 	
+Tiempo:    0.719070 	 Bytes:       2 	 Mensajes:    1000 	 BW:     5.305040 	 TiempoMax:    0.179768 	 TiempoMin:    0.179768 	
+Tiempo:    0.723839 	 Bytes:       4 	 Mensajes:    1000 	 BW:    10.540184 	 TiempoMax:    0.180960 	 TiempoMin:    0.180960 	
+Tiempo:    0.719070 	 Bytes:       8 	 Mensajes:    1000 	 BW:    21.220159 	 TiempoMax:    0.179768 	 TiempoMin:    0.179768 	
+Tiempo:    0.724077 	 Bytes:      16 	 Mensajes:    1000 	 BW:    42.146855 	 TiempoMax:    0.181019 	 TiempoMin:    0.181019 	
+Tiempo:    0.722170 	 Bytes:      32 	 Mensajes:    1000 	 BW:    84.516342 	 TiempoMax:    0.180542 	 TiempoMin:    0.180542 	
+Tiempo:    0.723600 	 Bytes:      64 	 Mensajes:    1000 	 BW:   168.642951 	 TiempoMax:    0.180960 	 TiempoMin:    0.180721 	
+Tiempo:    0.724316 	 Bytes:     128 	 Mensajes:    1000 	 BW:   337.174844 	 TiempoMax:    0.181258 	 TiempoMin:    0.181019 	
+Tiempo:    0.725508 	 Bytes:     256 	 Mensajes:    1000 	 BW:   673.462677 	 TiempoMax:    0.181496 	 TiempoMin:    0.181258 	
+Tiempo:    0.725985 	 Bytes:     512 	 Mensajes:    1000 	 BW:  1345.155993 	 TiempoMax:    0.181496 	 TiempoMin:    0.181496 	
+Tiempo:    0.732899 	 Bytes:    1024 	 Mensajes:    1000 	 BW:  2664.931685 	 TiempoMax:    0.183225 	 TiempoMin:    0.183225 	
+Tiempo:    0.722885 	 Bytes:    2048 	 Mensajes:    1000 	 BW:  5403.693931 	 TiempoMax:    0.180721 	 TiempoMin:    0.180721 	
+Tiempo:    0.718117 	 Bytes:    4096 	 Mensajes:    1000 	 BW: 10879.150066 	 TiempoMax:    0.179529 	 TiempoMin:    0.179529 	
+Tiempo:    0.725031 	 Bytes:    8192 	 Mensajes:    1000 	 BW: 21550.805656 	 TiempoMax:    0.181258 	 TiempoMin:    0.181258 	
+Tiempo:    0.726938 	 Bytes:   16384 	 Mensajes:    1000 	 BW: 42988.520827 	 TiempoMax:    0.181735 	 TiempoMin:    0.181735 	
+Tiempo:    0.725985 	 Bytes:   32768 	 Mensajes:    1000 	 BW: 86089.983580 	 TiempoMax:    0.181496 	 TiempoMin:    0.181496 	
+Tiempo:    0.728294 	 Bytes:   65536 	 Mensajes:     640 	 BW:171633.923274 	 TiempoMax:    0.182074 	 TiempoMin:    0.182074 	
+Tiempo:    0.721961 	 Bytes:  131072 	 Mensajes:     320 	 BW:346278.968008 	 TiempoMax:    0.180490 	 TiempoMin:    0.180490 	
+Tiempo:    0.755489 	 Bytes:  262144 	 Mensajes:     160 	 BW:665762.539683 	 TiempoMax:    0.189245 	 TiempoMin:    0.187755 	
+Tiempo:    0.762939 	 Bytes:  524288 	 Mensajes:      80 	 BW:1310720.000000 	 TiempoMax:    0.190735 	 TiempoMin:    0.190735 	
+Tiempo:    0.798702 	 Bytes: 1048576 	 Mensajes:      40 	 BW:2504062.089552 	 TiempoMax:    0.199676 	 TiempoMin:    0.199676 	
+Tiempo:    0.786781 	 Bytes: 2097152 	 Mensajes:      20 	 BW:5326100.317460 	 TiempoMax:    0.199676 	 TiempoMin:    0.187755 	
+Tiempo:    0.792742 	 Bytes: 4194304 	 Mensajes:      10 	 BW:10168009.696970 	 TiempoMax:    0.202656 	 TiempoMin:    0.196695 	
+
+-- Normalization time
+Tiempo de normalización:    1.192093
+Tiempo de normalización:    0.953674
+Tiempo de normalización:    0.953674
+Tiempo de normalización:    0.953674
